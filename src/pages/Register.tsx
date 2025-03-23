@@ -21,6 +21,7 @@ const Register = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
     
     if (password !== confirmPassword) {
       setError('Les mots de passe ne correspondent pas');
@@ -31,7 +32,11 @@ const Register = () => {
       await register(email, password);
       navigate('/profile');
     } catch (err) {
-      setError('Échec de l\'inscription. Veuillez réessayer.');
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('Une erreur est survenue lors de l\'inscription');
+      }
     }
   };
 

@@ -20,11 +20,17 @@ const Login = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
+    
     try {
       await login(email, password);
       navigate('/profile');
     } catch (err) {
-      setError('Échec de la connexion. Vérifiez vos identifiants.');
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('Une erreur est survenue lors de la connexion');
+      }
     }
   };
 
