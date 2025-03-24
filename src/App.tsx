@@ -1,30 +1,24 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ThemeProvider, createTheme, Box } from '@mui/material';
+import { Box } from '@mui/material';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
 import AdminDashboard from './pages/AdminDashboard';
+import Bestiary from './pages/Bestiary';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute';
 import PublicRoute from './components/PublicRoute';
 import Navbar from './components/Navbar';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#1976d2',
-    },
-    secondary: {
-      main: '#dc004e',
-    },
-  },
-});
+import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider } from './contexts/ThemeContext';
+import './index.css';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider>
+      <CssBaseline />
       <Router>
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <Navbar />
@@ -63,6 +57,7 @@ function App() {
                   </AdminRoute>
                 }
               />
+              <Route path="/bestiary" element={<Bestiary />} />
             </Routes>
           </Box>
         </Box>

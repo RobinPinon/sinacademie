@@ -190,6 +190,17 @@ const Profile = () => {
                 variant="outlined"
                 color="error"
                 onClick={handleLogout}
+                className="logout-button"
+                sx={{
+                  color: '#dc004e',
+                  borderColor: '#dc004e',
+                  '&:hover': {
+                    backgroundColor: 'transparent',
+                    color: '#dc004e',
+                    borderColor: '#dc004e',
+                    opacity: 0.8,
+                  },
+                }}
               >
                 Se déconnecter
               </Button>

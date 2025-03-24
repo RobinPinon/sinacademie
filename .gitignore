@@ -32,3 +32,6 @@ yarn-error.log*
 # Système
 .DS_Store
 Thumbs.db
+
+# Json
+Søpralus-10153292.json

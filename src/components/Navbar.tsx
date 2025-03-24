@@ -1,16 +1,22 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { useTheme } from '../contexts/ThemeContext';
 import {
   AppBar,
   Toolbar,
   Typography,
   Button,
   Box,
+  IconButton,
 } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 
 const Navbar = () => {
   const { user, logout, isAdmin } = useAuth();
+  const { isDarkMode, toggleTheme } = useTheme();
   const navigate = useNavigate();
 
   const handleLogout = async () => {
@@ -28,36 +34,59 @@ const Navbar = () => {
         <Typography
           variant="h6"
           noWrap
-          component="div"
-          sx={{ flexGrow: 1, cursor: 'pointer' }}
-          onClick={() => navigate('/')}
+          component={RouterLink}
+          to="/"
+          sx={{ flexGrow: 1, cursor: 'pointer', textDecoration: 'none', color: 'inherit' }}
         >
           Summoners War Academy
         </Typography>
-        {user ? (
-          <Box sx={{ display: 'flex', gap: 2 }}>
-            <Button color="inherit" onClick={() => navigate('/profile')}>
-              Profil
-            </Button>
-            {isAdmin && (
-              <Button color="inherit" onClick={() => navigate('/admin')}>
-                Admin
+        <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+          <IconButton color="inherit" onClick={toggleTheme}>
+            {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+          </IconButton>
+          <Button color="inherit" component={RouterLink} to="/bestiary">
+            Bestiaire
+          </Button>
+          {user ? (
+            <>
+              <Button color="inherit" component={RouterLink} to="/profile">
+                Profil
               </Button>
-            )}
-            <Button color="inherit" onClick={handleLogout}>
-              Déconnexion
-            </Button>
-          </Box>
-        ) : (
-          <Box sx={{ display: 'flex', gap: 2 }}>
-            <Button color="inherit" onClick={() => navigate('/login')}>
-              Connexion
-            </Button>
-            <Button color="inherit" onClick={() => navigate('/register')}>
-              Inscription
-            </Button>
-          </Box>
-        )}
+              {isAdmin && (
+                <Button color="inherit" component={RouterLink} to="/admin">
+                  Admin
+                </Button>
+              )}
+              <Button
+                color="inherit"
+                onClick={handleLogout}
+                className="logout-button"
+                variant="outlined"
+                sx={{
+                  color: '#dc004e',
+                  borderColor: '#dc004e',
+                  '&:hover': {
+                    backgroundColor: 'transparent',
+                    color: '#dc004e',
+                    borderColor: '#dc004e',
+                    opacity: 0.8,
+                  },
+                }}
+              >
+                Se déconnecter
+              </Button>
+            </>
+          ) : (
+            <>
+              <Button color="inherit" component={RouterLink} to="/login">
+                Connexion
+              </Button>
+              <Button color="inherit" component={RouterLink} to="/register">
+                Inscription
+              </Button>
+            </>
+          )}
+        </Box>
       </Toolbar>
     </AppBar>
   );
