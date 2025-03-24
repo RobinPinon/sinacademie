@@ -19,13 +19,16 @@ import { monsterData, getMonsterName } from '../data/monsters';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../supabase/config';
 
+type AttributeId = 1 | 2 | 3 | 4 | 5;
+type ArchetypeId = 0 | 1 | 2 | 3 | 4 | 5;
+
 interface Monster {
   unit_id: number;
   unit_master_id: number;
   unit_level: number;
-  class: number;
+  class: ArchetypeId;
   unit_rarity: number;
-  attribute: number;
+  attribute: AttributeId;
   create_time: number;
   building_id: number;
   skills: {
@@ -69,7 +72,7 @@ const Bestiary = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedAttribute, setSelectedAttribute] = useState<string | null>(null);
   const [selectedRarity, setSelectedRarity] = useState<number | null>(null);
-  const [selectedClass, setSelectedClass] = useState<number | null>(null);
+  const [selectedClass, setSelectedClass] = useState<ArchetypeId | null>(null);
   const [userMonsters, setUserMonsters] = useState<UserData | null>(null);
   const [error, setError] = useState('');
 
@@ -89,7 +92,6 @@ const Bestiary = () => {
 
       if (error) throw error;
       
-      // Le JSON est stocké dans data.data
       const jsonData = data?.data;
       if (jsonData && jsonData.unit_list) {
         setUserMonsters(jsonData);
@@ -128,7 +130,7 @@ const Bestiary = () => {
     }
   };
 
-  const getClassLabel = (classId: number) => {
+  const getClassLabel = (classId: ArchetypeId) => {
     return monsterData.archetypes[classId] || `Classe ${classId}`;
   };
 
@@ -193,7 +195,7 @@ const Bestiary = () => {
                 <Select
                   value={selectedClass || ''}
                   label="Classe"
-                  onChange={(e) => setSelectedClass(e.target.value as number || null)}
+                  onChange={(e) => setSelectedClass(e.target.value as ArchetypeId || null)}
                 >
                   <MenuItem value="">Toutes</MenuItem>
                   {Object.entries(monsterData.archetypes).map(([id, name]) => (

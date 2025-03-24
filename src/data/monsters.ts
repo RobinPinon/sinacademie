@@ -1,4 +1,10 @@
-export const monsterData = {
+interface MonsterData {
+  attributes: { [key: number]: string };
+  archetypes: { [key: number]: string };
+  names: { [key: number]: string };
+}
+
+export const monsterData: MonsterData = {
   attributes: {
     1: 'Water',
     2: 'Fire',
