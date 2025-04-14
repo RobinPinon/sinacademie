@@ -7,13 +7,16 @@ import Profile from './pages/Profile';
 import Home from './pages/Home';
 import AdminDashboard from './pages/AdminDashboard';
 import Bestiary from './pages/Bestiary';
+import CounterPage from './pages/CounterPage';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute';
 import PublicRoute from './components/PublicRoute';
+import ApprovedRoute from './components/ApprovedRoute';
 import Navbar from './components/Navbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from './contexts/ThemeContext';
 import './index.css';
+import DefenseDetails from './pages/DefenseDetails';
 
 function App() {
   return (
@@ -45,7 +48,9 @@ function App() {
                 path="/profile"
                 element={
                   <PrivateRoute>
-                    <Profile />
+                    <ApprovedRoute>
+                      <Profile />
+                    </ApprovedRoute>
                   </PrivateRoute>
                 }
               />
@@ -58,6 +63,17 @@ function App() {
                 }
               />
               <Route path="/bestiary" element={<Bestiary />} />
+              <Route
+                path="/counter"
+                element={
+                  <PrivateRoute>
+                    <ApprovedRoute>
+                      <CounterPage />
+                    </ApprovedRoute>
+                  </PrivateRoute>
+                }
+              />
+              <Route path="/defense/:id" element={<DefenseDetails />} />
             </Routes>
           </Box>
         </Box>

@@ -47,6 +47,11 @@ const Navbar = () => {
           <Button color="inherit" component={RouterLink} to="/bestiary">
             Bestiaire
           </Button>
+          {user && (
+            <Button color="inherit" component={RouterLink} to="/counter">
+              Counter
+            </Button>
+          )}
           {user ? (
             <>
               <Button color="inherit" component={RouterLink} to="/profile">
