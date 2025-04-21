@@ -1,7 +1,7 @@
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField } from '@mui/material';
 import { Editor } from '@tinymce/tinymce-react';
 import { useState, useRef } from 'react';
-import { Monster } from '../types/Monster';
+import { Monster } from './types/Monster';
 import { MonsterSelect } from './MonsterSelect';
 
 interface AddCounterDialogProps {
