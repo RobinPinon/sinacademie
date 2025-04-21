@@ -6,7 +6,6 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
 import AdminDashboard from './pages/AdminDashboard';
-import Bestiary from './pages/Bestiary';
 import CounterPage from './pages/CounterPage';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute';
@@ -19,6 +18,7 @@ import './index.css';
 import DefenseDetails from './pages/DefenseDetails';
 import DefensePage from './pages/DefensePage';
 import MonstersPage from './pages/MonstersPage';
+import BuildsPage from './pages/BuildsPage';
 
 function App() {
   return (
@@ -64,7 +64,6 @@ function App() {
                   </AdminRoute>
                 }
               />
-              <Route path="/bestiary" element={<Bestiary />} />
               <Route
                 path="/counter"
                 element={
@@ -88,6 +87,16 @@ function App() {
               <Route path="/defense/:id" element={<DefenseDetails />} />
               <Route path="/defense/:slug" element={<DefensePage />} />
               <Route path="/monsters" element={<MonstersPage />} />
+              <Route
+                path="/builds"
+                element={
+                  <PrivateRoute>
+                    <ApprovedRoute>
+                      <BuildsPage />
+                    </ApprovedRoute>
+                  </PrivateRoute>
+                }
+              />
             </Routes>
           </Box>
         </Box>

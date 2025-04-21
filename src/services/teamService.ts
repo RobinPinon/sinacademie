@@ -1,5 +1,6 @@
 import { supabase } from '../supabase/config';
 import { DefenseTeam, CounterTeam, Monster } from '../types/Team';
+import { monsterData } from '../data/monsters';
 
 interface CreateDefenseTeamParams {
   name: string;
@@ -39,7 +40,7 @@ export const createCounterTeam = async (params: CreateCounterTeamParams) => {
     .from('counter_teams')
     .insert({
       name: params.name,
-      monsters: params.monsters,
+      monsters: params.monsters.map(m => m.id),
       user_id: params.user_id,
       defense_team_id: params.defense_team_id,
       description: params.description,
@@ -107,7 +108,14 @@ export const getCounterTeamsForDefense = async (defenseTeamId: string) => {
     .order('created_at', { ascending: false });
 
   if (error) throw error;
-  return data || [];
+  
+  return (data || []).map(counter => ({
+    ...counter,
+    monsters: counter.monsters.map(id => ({
+      id: parseInt(id),
+      name: monsterData.names[id] || 'Monstre inconnu'
+    }))
+  }));
 };
 
 export const getDefenseTeamBySlug = async (slug: string): Promise<DefenseTeam | null> => {
@@ -136,7 +144,10 @@ export const getDefenseTeamBySlug = async (slug: string): Promise<DefenseTeam | 
     counters: data.counter_teams?.map(counter => ({
       id: counter.id,
       name: counter.name,
-      monsters: counter.monsters,
+      monsters: counter.monsters.map((id: string | number) => ({
+        id: parseInt(id.toString()),
+        name: monsterData.names[id] || 'Monstre inconnu'
+      })),
       user_id: counter.user_id,
       defense_team_id: counter.defense_team_id,
       created_at: new Date(counter.created_at),
@@ -156,6 +167,18 @@ export const deleteDefenseTeam = async (teamId: string) => {
 };
 
 export const deleteCounterTeam = async (counterId: string) => {
+  // Supprimer d'abord tous les builds associés
+  const { error: deleteBuildsError } = await supabase
+    .from('builds')
+    .delete()
+    .eq('counter_team_id', counterId);
+
+  if (deleteBuildsError) {
+    console.error('Erreur lors de la suppression des builds:', deleteBuildsError);
+    throw deleteBuildsError;
+  }
+
+  // Puis supprimer le counter
   const { error } = await supabase
     .from('counter_teams')
     .delete()

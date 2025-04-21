@@ -880,11 +880,6 @@ export const monsterData: MonsterData = {
     22213: 'Taranys',
     22214: 'Valantis',
     22215: 'Pater',
-    22311: 'Abellio (2A)',
-    22312: 'Bellenus (2A)',
-    22313: 'Taranys (2A)',
-    22314: 'Valantis (2A)',
-    22315: 'Pater (2A)',
 
     224: 'Giant Warrior',
     22411: 'Bagir',

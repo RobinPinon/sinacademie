@@ -14,6 +14,11 @@ import { Link as RouterLink } from 'react-router-dom';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 
+const pages = [
+  { name: 'Counter', path: '/counter', requireAuth: true },
+  { name: 'Builds', path: '/builds', requireAuth: true},
+];
+
 const Navbar = () => {
   const { user, logout, isAdmin, isMaintainer, refreshUserStatus } = useAuth();
   const { isDarkMode, toggleTheme } = useTheme();
@@ -49,14 +54,26 @@ const Navbar = () => {
           <IconButton onClick={toggleTheme} color="inherit">
             {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
-          <Button color="inherit" component={RouterLink} to="/bestiary">
-            Bestiaire
-          </Button>
-          {user && (
-            <Button color="inherit" component={RouterLink} to="/counter">
-              Counter
-            </Button>
-          )}
+          
+          {/* Navigation links */}
+          {pages.map((page) => {
+            if (page.public || (user && page.requireAuth)) {
+              return (
+                <Button
+                  key={page.path}
+                  color="inherit"
+                  component={RouterLink}
+                  to={page.path}
+                  startIcon={page.icon}
+                >
+                  {page.name}
+                </Button>
+              );
+            }
+            return null;
+          })}
+
+          {/* User menu */}
           {user ? (
             <>
               <Button color="inherit" component={RouterLink} to="/profile">
