@@ -11,6 +11,7 @@ import {
   Divider,
 } from '@mui/material';
 import { supabase } from '../supabase/config';
+import { JsonImportButton } from '../components/JsonImportButton';
 
 // Fonction pour calculer un hash simple des données
 const calculateHash = (data: any): string => {
@@ -54,61 +55,60 @@ const Profile = () => {
     }
   };
 
-  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
+  const handleJsonImport = async (jsonData: any, fileName: string) => {
+    if (!user?.id) return;
 
     try {
-      const reader = new FileReader();
-      reader.onload = async (e) => {
-        try {
-          const jsonData = JSON.parse(e.target?.result as string);
-          const dataHash = calculateHash(jsonData);
+      // Vérifier que les données ne sont pas null
+      if (!jsonData) {
+        setError('Les données JSON sont invalides');
+        return;
+      }
 
-          // Vérifier si ces données existent déjà pour un autre utilisateur
-          const { data: existingData, error: checkError } = await supabase
-            .from('user_data')
-            .select('user_id')
-            .eq('data_hash', dataHash)
-            .neq('user_id', user?.id)
-            .single();
+      // Vérifier la taille des données
+      const dataSize = new Blob([JSON.stringify(jsonData)]).size;
+      if (dataSize > 10 * 1024 * 1024) { // 10MB limit
+        setError('Le fichier est trop volumineux (limite: 10MB)');
+        return;
+      }
 
-          if (checkError && checkError.code !== 'PGRST116') {
-            throw checkError;
+      // Calculer le hash des données
+      const dataHash = calculateHash(jsonData);
+
+      const { error } = await supabase
+        .from('user_data')
+        .upsert(
+          {
+            id: user.id, // Utiliser l'ID de l'utilisateur comme ID principal
+            user_id: user.id,
+            data: jsonData,
+            data_hash: dataHash,
+            file_name: fileName,
+            updated_at: new Date().toISOString()
+          },
+          {
+            onConflict: 'id'
           }
+        );
 
-          if (existingData) {
-            setError('Ces données ont déjà été importées par un autre utilisateur.');
-            setSuccess('');
-            return;
-          }
-          
-          // Mettre à jour les données existantes
-          const { error } = await supabase
-            .from('user_data')
-            .upsert({
-              user_id: user?.id,
-              data: jsonData,
-              data_hash: dataHash,
-              file_name: file.name,
-              updated_at: new Date().toISOString(),
-            }, {
-              onConflict: 'user_id'
-            });
-
-          if (error) throw error;
-
-          setSuccess('Données mises à jour avec succès !');
-          setError('');
-          fetchUserData(); // Rafraîchir les données affichées
-        } catch (err) {
-          setError('Erreur lors de la mise à jour des données. Vérifiez le format du fichier JSON.');
-          setSuccess('');
+      if (error) {
+        console.error('Erreur Supabase détaillée:', error);
+        if (error.code === '23502') {
+          setError('Données manquantes requises');
+        } else if (error.code === '23505') {
+          setError('Conflit avec des données existantes');
+        } else {
+          setError(`Erreur lors de l'importation: ${error.message}`);
         }
-      };
-      reader.readAsText(file);
-    } catch (err) {
-      setError('Erreur lors de la lecture du fichier.');
+        return;
+      }
+
+      setSuccess('Données importées avec succès !');
+      setError('');
+      await fetchUserData();
+    } catch (err: any) {
+      console.error('Erreur complète:', err);
+      setError(err?.message || 'Erreur lors de l\'importation des données');
       setSuccess('');
     }
   };
@@ -160,7 +160,7 @@ const Profile = () => {
                     Nom du fichier: {userData.file_name}
                   </Typography>
                   <Typography variant="body1" color="text.secondary">
-                    Dernière mise à jour: {new Date(userData.updated_at).toLocaleString('fr-FR')}
+                    Dernière mise à jour: {userData.updated_at ? new Date(userData.updated_at).toLocaleString('fr-FR') : 'Non disponible'}
                   </Typography>
                 </>
               ) : (
@@ -170,37 +170,15 @@ const Profile = () => {
               )}
             </Box>
             <Box sx={{ mt: 3 }}>
-              <input
-                accept="application/json"
-                style={{ display: 'none' }}
-                id="json-file-upload"
-                type="file"
-                onChange={handleFileUpload}
+              <JsonImportButton 
+                onImport={handleJsonImport}
+                label="Importer votre fichier JSON"
               />
-              <label htmlFor="json-file-upload">
-                <Button
-                  variant="contained"
-                  component="span"
-                  sx={{ mr: 2 }}
-                >
-                  Importer un fichier JSON
-                </Button>
-              </label>
               <Button
                 variant="outlined"
                 color="error"
                 onClick={handleLogout}
-                className="logout-button"
-                sx={{
-                  color: '#dc004e',
-                  borderColor: '#dc004e',
-                  '&:hover': {
-                    backgroundColor: 'transparent',
-                    color: '#dc004e',
-                    borderColor: '#dc004e',
-                    opacity: 0.8,
-                  },
-                }}
+                sx={{ ml: 2 }}
               >
                 Se déconnecter
               </Button>

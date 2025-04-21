@@ -8,9 +8,11 @@ interface AuthContextType {
   loading: boolean;
   isAdmin: boolean;
   isApproved: boolean;
+  isMaintainer: boolean;
   login: (email: string, password: string) => Promise<void>;
   register: (email: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
+  refreshUserStatus: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -29,31 +31,73 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [loading, setLoading] = useState(true);
   const [isAdmin, setIsAdmin] = useState(false);
   const [isApproved, setIsApproved] = useState(false);
+  const [isMaintainer, setIsMaintainer] = useState(false);
 
+  // Fonction pour vérifier le statut de l'utilisateur
   const checkUserStatus = async (userId: string) => {
     try {
-      const { data, error } = await supabase
-        .from('users')
-        .select('is_admin, is_approved')
-        .eq('id', userId)
-        .single();
+      // Utiliser une requête SQL directe via une fonction RPC
+      const { data, error } = await supabase.rpc('get_user_status', {
+        user_id: userId
+      });
 
       if (error) {
-        console.error('Erreur lors de la vérification du statut utilisateur:', error);
-        throw error;
+        console.error('Erreur lors de la vérification du statut:', error);
+        setIsAdmin(false);
+        setIsApproved(false);
+        setIsMaintainer(false);
+        return;
       }
-      
-      setIsAdmin(data?.is_admin || false);
-      setIsApproved(data?.is_approved || false);
-    } catch (error) {
-      console.error('Erreur lors de la vérification du statut utilisateur:', error);
+
+      if (!data) {
+        // Si pas de données, créer un nouvel utilisateur
+        const { error: insertError } = await supabase
+          .from('users')
+          .upsert([
+            { 
+              id: userId,
+              email: user?.email,
+              is_admin: false,
+              is_approved: false,
+              is_maintainer: false,
+              created_at: new Date().toISOString()
+            }
+          ], {
+            onConflict: 'id'
+          });
+
+        if (insertError) {
+          console.error('Erreur lors de la création/mise à jour du profil:', insertError);
+        }
+        
+        setIsAdmin(false);
+        setIsApproved(false);
+        setIsMaintainer(false);
+        return;
+      }
+
+      console.log('Statut utilisateur mis à jour:', data);
+      setIsAdmin(!!data.is_admin);
+      setIsApproved(!!data.is_approved);
+      setIsMaintainer(!!data.is_maintainer);
+    } catch (err) {
+      console.error('Erreur lors de la vérification du statut:', err);
       setIsAdmin(false);
       setIsApproved(false);
+      setIsMaintainer(false);
     }
   };
 
+  // Fonction pour rafraîchir le statut de l'utilisateur
+  const refreshUserStatus = async () => {
+    if (user?.id) {
+      await checkUserStatus(user.id);
+    }
+  };
+
+  // Effet pour gérer l'authentification
   useEffect(() => {
-    // Vérifier la session actuelle
+    // Vérifier la session initiale
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
       setUser(session?.user ?? null);
@@ -72,6 +116,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       } else {
         setIsAdmin(false);
         setIsApproved(false);
+        setIsMaintainer(false);
       }
       setLoading(false);
     });
@@ -79,73 +124,66 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return () => subscription.unsubscribe();
   }, []);
 
+  // Fonction de connexion
   const login = async (email: string, password: string) => {
-    const { error, data } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
+    setLoading(true);
+    try {
+      const { error, data } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
 
-    if (error) {
-      if (error.message.includes('Email not confirmed')) {
-        throw new Error('Veuillez confirmer votre email avant de vous connecter');
-      }
+      if (error) throw error;
+      if (!data.user) throw new Error('No user data');
+
+      await checkUserStatus(data.user.id);
+    } catch (error: any) {
+      let message = 'Erreur lors de la connexion';
       if (error.message.includes('Invalid login credentials')) {
-        throw new Error('Email ou mot de passe incorrect');
+        message = 'Email ou mot de passe incorrect';
       }
-      throw error;
+      throw new Error(message);
+    } finally {
+      setLoading(false);
     }
-
-    if (!data.user) {
-      throw new Error('Erreur lors de la connexion');
-    }
-
-    // Vérifier le statut utilisateur après la connexion
-    await checkUserStatus(data.user.id);
   };
 
+  // Fonction d'inscription
   const register = async (email: string, password: string) => {
-    if (!email || !password) {
-      throw new Error('Email et mot de passe requis');
-    }
+    setLoading(true);
+    try {
+      const { error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          emailRedirectTo: `${window.location.origin}/profile`
+        }
+      });
 
-    if (password.length < 6) {
-      throw new Error('Le mot de passe doit contenir au moins 6 caractères');
-    }
-
-    const { error, data } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        data: {
-          email: email,
-        },
-        emailRedirectTo: `${window.location.origin}/profile`
-      }
-    });
-
-    if (error) {
+      if (error) throw error;
+    } catch (error: any) {
+      let message = 'Erreur lors de l\'inscription';
       if (error.message.includes('already registered')) {
-        throw new Error('Cet email est déjà utilisé');
+        message = 'Cet email est déjà utilisé';
       }
-      if (error.message.includes('rate limit')) {
-        throw new Error('Limite d\'envoi d\'emails atteinte. Veuillez réessayer dans quelques minutes ou contactez l\'administrateur.');
-      }
-      throw error;
+      throw new Error(message);
+    } finally {
+      setLoading(false);
     }
-
-    if (!data.user) {
-      throw new Error('Erreur lors de la création du compte');
-    }
-
-    // Connexion automatique après l'inscription
-    await login(email, password);
   };
 
+  // Fonction de déconnexion
   const logout = async () => {
-    const { error } = await supabase.auth.signOut();
-    if (error) throw error;
-    setIsAdmin(false);
-    setIsApproved(false);
+    setLoading(true);
+    try {
+      const { error } = await supabase.auth.signOut();
+      if (error) throw error;
+      setIsAdmin(false);
+      setIsApproved(false);
+      setIsMaintainer(false);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const value = {
@@ -154,9 +192,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     loading,
     isAdmin,
     isApproved,
+    isMaintainer,
     login,
     register,
     logout,
+    refreshUserStatus
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

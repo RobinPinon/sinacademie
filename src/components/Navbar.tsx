@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
@@ -15,9 +15,20 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 
 const Navbar = () => {
-  const { user, logout, isAdmin } = useAuth();
+  const { user, logout, isAdmin, isMaintainer, refreshUserStatus } = useAuth();
   const { isDarkMode, toggleTheme } = useTheme();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (user) {
+      // Petit délai pour s'assurer que la session est bien établie
+      const timer = setTimeout(() => {
+        refreshUserStatus();
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [user, refreshUserStatus]);
 
   const handleLogout = async () => {
     try {
@@ -29,19 +40,13 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ width: '100%' }}>
-      <Toolbar disableGutters sx={{ px: 2 }}>
-        <Typography
-          variant="h6"
-          noWrap
-          component={RouterLink}
-          to="/"
-          sx={{ flexGrow: 1, cursor: 'pointer', textDecoration: 'none', color: 'inherit' }}
-        >
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6" component={RouterLink} to="/" sx={{ flexGrow: 1, textDecoration: 'none', color: 'inherit' }}>
           Summoners War Academy
         </Typography>
         <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
-          <IconButton color="inherit" onClick={toggleTheme}>
+          <IconButton onClick={toggleTheme} color="inherit">
             {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
           <Button color="inherit" component={RouterLink} to="/bestiary">
@@ -62,23 +67,8 @@ const Navbar = () => {
                   Admin
                 </Button>
               )}
-              <Button
-                color="inherit"
-                onClick={handleLogout}
-                className="logout-button"
-                variant="outlined"
-                sx={{
-                  color: '#dc004e',
-                  borderColor: '#dc004e',
-                  '&:hover': {
-                    backgroundColor: 'transparent',
-                    color: '#dc004e',
-                    borderColor: '#dc004e',
-                    opacity: 0.8,
-                  },
-                }}
-              >
-                Se déconnecter
+              <Button color="inherit" onClick={handleLogout}>
+                Déconnexion
               </Button>
             </>
           ) : (

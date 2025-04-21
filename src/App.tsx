@@ -17,6 +17,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from './contexts/ThemeContext';
 import './index.css';
 import DefenseDetails from './pages/DefenseDetails';
+import DefensePage from './pages/DefensePage';
+import MonstersPage from './pages/MonstersPage';
 
 function App() {
   return (
@@ -73,7 +75,19 @@ function App() {
                   </PrivateRoute>
                 }
               />
+              <Route 
+                path="/counter/:slug" 
+                element={
+                  <PrivateRoute>
+                    <ApprovedRoute>
+                      <DefensePage />
+                    </ApprovedRoute>
+                  </PrivateRoute>
+                }
+              />
               <Route path="/defense/:id" element={<DefenseDetails />} />
+              <Route path="/defense/:slug" element={<DefensePage />} />
+              <Route path="/monsters" element={<MonstersPage />} />
             </Routes>
           </Box>
         </Box>

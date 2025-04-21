@@ -10,13 +10,17 @@ import {
   CardContent, 
   Grid,
   Autocomplete,
-  TextField
+  TextField,
+  Alert,
+  useTheme
 } from '@mui/material';
 import { monsterData } from '../data/monsters';
 import { useAuth } from '../contexts/AuthContext';
 import { DefenseTeam, CounterTeam, Monster } from '../types/Team';
 import { createDefenseTeam, createCounterTeam, getDefenseTeams, getCounterTeamsForDefense } from '../services/teamService';
 import { useNavigate } from 'react-router-dom';
+import { Editor } from '@tinymce/tinymce-react';
+import { getMonsterImagePath } from '../data/monsterImages';
 
 const Counter: React.FC = () => {
   const [openAddDialog, setOpenAddDialog] = useState(false);
@@ -29,8 +33,11 @@ const Counter: React.FC = () => {
   const [defenseMonsters, setDefenseMonsters] = useState<Monster[]>([]);
   const [counterMonsters, setCounterMonsters] = useState<Monster[]>([]);
   const [searchResults, setSearchResults] = useState<DefenseTeam[]>([]);
-  const { user } = useAuth();
+  const { user, isMaintainer } = useAuth();
   const navigate = useNavigate();
+  const editorRef = React.useRef<any>(null);
+  const theme = useTheme();
+  const [originalDefenseTeams, setOriginalDefenseTeams] = useState<DefenseTeam[]>([]);
 
   useEffect(() => {
     loadDefenseTeams();
@@ -39,11 +46,16 @@ const Counter: React.FC = () => {
   const loadDefenseTeams = async () => {
     const teams = await getDefenseTeams();
     setDefenseTeams(teams);
+    setOriginalDefenseTeams(teams);
   };
 
   const handleAddClick = () => {
     if (!user) {
       alert('Veuillez vous connecter pour ajouter une équipe');
+      return;
+    }
+    if (!isMaintainer) {
+      alert('Vous devez être maintainer pour ajouter une équipe de défense');
       return;
     }
     setOpenAddDialog(true);
@@ -54,6 +66,7 @@ const Counter: React.FC = () => {
       alert('Veuillez vous connecter pour rechercher des monstres');
       return;
     }
+    setSelectedMonsters([null, null, null]);
     setOpenSearchDialog(true);
   };
 
@@ -104,34 +117,52 @@ const Counter: React.FC = () => {
       return;
     }
 
-    const teamName = defenseMonsters.map(m => m.name).join(' - ');
-    await createDefenseTeam({
-      name: teamName,
-      monsters: defenseMonsters,
-      userId: user!.id
-    });
+    const teamName = defenseMonsters.map(m => m.name).join(" - ");
+    const teamSlug = defenseMonsters
+      .map(m => m.name.toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]/g, ""))
+      .join("-");
+    
+    try {
+      await createDefenseTeam({
+        name: teamName,
+        monsters: defenseMonsters,
+        user_id: user!.id,
+        slug: teamSlug
+      });
 
-    setDefenseMonsters([]);
-    setOpenAddDialog(false);
-    loadDefenseTeams();
+      setDefenseMonsters([]);
+      setOpenAddDialog(false);
+      loadDefenseTeams();
+    } catch (err) {
+      console.error('Erreur lors de la création de l\'équipe:', err);
+      alert('Erreur lors de la création de l\'équipe');
+    }
   };
 
-  const handleSaveCounterTeam = async (defenseTeamId: string) => {
+  const handleSaveCounterTeam = async (defenseTeamId: string, name: string, description: string) => {
     if (counterMonsters.length !== 3 || counterMonsters.some(m => !m)) {
       alert('Veuillez sélectionner exactement 3 monstres pour l\'équipe de counter');
       return;
     }
 
-    const teamName = counterMonsters.map(m => m.name).join(' - ');
-    await createCounterTeam({
-      name: teamName,
-      monsters: counterMonsters,
-      userId: user!.id,
-      defenseTeamId
-    });
+    try {
+      await createCounterTeam({
+        name,
+        monsters: counterMonsters,
+        user_id: user!.id,
+        defense_team_id: defenseTeamId,
+        description
+      });
 
-    setCounterMonsters([]);
-    loadDefenseTeams();
+      setCounterMonsters([]);
+      loadDefenseTeams();
+    } catch (error) {
+      console.error('Erreur lors de la création du counter:', error);
+      alert('Une erreur est survenue lors de la création du counter');
+    }
   };
 
   const handleAddTeam = () => {
@@ -144,9 +175,10 @@ const Counter: React.FC = () => {
         id: teamId,
         name: teamName,
         monsters: defenseMonsters,
-        userId: user.id,
-        createdAt: new Date(),
-        updatedAt: new Date(),
+        user_id: user.id,
+        created_at: new Date(),
+        updated_at: new Date(),
+        slug: teamName.toLowerCase().replace(/\s+/g, '-'),
         counters: []
       };
       
@@ -154,10 +186,11 @@ const Counter: React.FC = () => {
         id: teamId,
         name: counterTeamName,
         monsters: counterMonsters,
-        userId: user.id,
-        defenseTeamId: teamId,
-        createdAt: new Date(),
-        updatedAt: new Date()
+        user_id: user.id,
+        defense_team_id: teamId,
+        created_at: new Date(),
+        updated_at: new Date(),
+        description: ''
       };
       
       setDefenseTeams([...defenseTeams, newDefenseTeam]);
@@ -171,23 +204,30 @@ const Counter: React.FC = () => {
   const handleSearch = () => {
     const validSelectedMonsters = selectedMonsters.filter((m): m is Monster => m !== null);
     if (validSelectedMonsters.length > 0) {
-      const matchingTeams = defenseTeams.filter(team => 
-        team.monsters.some(monster => 
-          validSelectedMonsters.some(selected => selected.id === monster.id)
+      const matchingTeams = originalDefenseTeams.filter(team => 
+        validSelectedMonsters.every(selected => 
+          team.monsters.some(monster => monster.id === selected.id)
         )
       );
-      setSearchResults(matchingTeams);
-      setOpenSearchDialog(false);
+      setDefenseTeams(matchingTeams);
+    } else {
+      setDefenseTeams(originalDefenseTeams);
     }
+    setSelectedMonsters([null, null, null]);
+    setOpenSearchDialog(false);
   };
 
   const handleAddCounter = (team: DefenseTeam) => {
+    if (!isMaintainer) {
+      alert('Vous devez être maintainer pour ajouter un counter');
+      return;
+    }
     setSelectedDefenseTeam(team);
     setOpenCounterDialog(true);
   };
 
   const handleDefenseClick = (team: DefenseTeam) => {
-    navigate(`/defense/${team.id}`);
+    navigate(`/counter/${team.slug}`);
   };
 
   const renderMonsterSelect = (index: number, selectedMonster: Monster | null, onChange: (monster: Monster | null, index: number) => void) => (
@@ -215,16 +255,101 @@ const Counter: React.FC = () => {
     />
   );
 
+  const buttonStyle = {
+    color: theme.palette.mode === 'dark' ? 'white' : undefined,
+    borderColor: theme.palette.mode === 'dark' ? 'white' : undefined,
+    '&:hover': {
+      borderColor: theme.palette.mode === 'dark' ? 'white' : undefined,
+      backgroundColor: theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.08)' : undefined
+    }
+  };
+
   return (
     <Box sx={{ p: 3 }}>
-      <Box sx={{ mb: 3, display: 'flex', gap: 2 }}>
-        <Button variant="contained" onClick={handleAddClick}>
-          Ajouter
-        </Button>
-        <Button variant="contained" onClick={handleSearchClick}>
+      <Box sx={{ mb: 3, display: 'flex', gap: 2, alignItems: 'center' }}>
+        {isMaintainer && (
+          <Button 
+            variant="outlined" 
+            onClick={handleAddClick}
+            sx={buttonStyle}
+          >
+            Ajouter une défense
+          </Button>
+        )}
+        <Button 
+          variant="outlined" 
+          onClick={handleSearchClick}
+          sx={buttonStyle}
+        >
           Rechercher
         </Button>
+        {defenseTeams !== originalDefenseTeams && (
+          <Button 
+            variant="outlined" 
+            onClick={() => setDefenseTeams(originalDefenseTeams)}
+            sx={buttonStyle}
+          >
+            Réinitialiser la recherche
+          </Button>
+        )}
       </Box>
+
+      {/* Liste des équipes de défense */}
+      {defenseTeams.length === 0 ? (
+        <Typography variant="body1" sx={{ mt: 2 }}>
+          Aucune défense trouvée
+        </Typography>
+      ) : (
+        <Grid container spacing={3}>
+          {defenseTeams.map((team) => (
+            <Grid item xs={12} sm={6} md={4} key={team.id}>
+              <Card 
+                sx={{ 
+                  cursor: 'pointer',
+                  '&:hover': {
+                    bgcolor: 'action.hover'
+                  }
+                }}
+                onClick={() => handleDefenseClick(team)}
+              >
+                <CardContent>
+                  <Box sx={{ display: 'flex', gap: 2, mb: 2, justifyContent: 'flex-start' }}>
+                    {team.monsters.map((monster, index) => (
+                      <Box
+                        key={index}
+                        component="img"
+                        src={getMonsterImagePath(monster.id)}
+                        alt={monster.name}
+                        sx={{
+                          width: 60,
+                          height: 60,
+                          objectFit: 'contain',
+                          borderRadius: '8px'
+                        }}
+                      />
+                    ))}
+                  </Box>
+                  <Box sx={{ display: 'flex', gap: 1, mt: 2 }}>
+                    <Button
+                      variant="outlined"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleDefenseClick(team);
+                      }}
+                      sx={{
+                        width: '100%',
+                        ...buttonStyle
+                      }}
+                    >
+                      Voir les détails
+                    </Button>
+                  </Box>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      )}
 
       {/* Dialog pour ajouter une équipe */}
       <Dialog open={openAddDialog} onClose={() => setOpenAddDialog(false)} maxWidth="md" fullWidth>
@@ -251,15 +376,30 @@ const Counter: React.FC = () => {
       </Dialog>
 
       {/* Dialog pour rechercher des monstres */}
-      <Dialog open={openSearchDialog} onClose={() => setOpenSearchDialog(false)} maxWidth="md" fullWidth>
-        <DialogTitle>Rechercher des monstres</DialogTitle>
+      <Dialog open={openSearchDialog} onClose={() => setOpenSearchDialog(false)} maxWidth="sm" fullWidth>
+        <DialogTitle>Rechercher une défense par monstres</DialogTitle>
         <DialogContent>
-          <Box sx={{ display: 'flex', gap: 2 }}>
-            {[0, 1, 2].map((index) => renderMonsterSelect(
-              index,
-              selectedMonsters[index],
-              handleMonsterSelect
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, pt: 2 }}>
+            <Typography variant="body2">
+              Sélectionnez jusqu'à 3 monstres pour trouver les défenses qui les contiennent tous
+            </Typography>
+            {[0, 1, 2].map((index) => (
+              <Box key={index} sx={{ width: '100%' }}>
+                {renderMonsterSelect(
+                  index,
+                  selectedMonsters[index],
+                  handleMonsterSelect
+                )}
+              </Box>
             ))}
+            <Button 
+              variant="contained" 
+              onClick={handleSearch}
+              disabled={!selectedMonsters.some(m => m !== null)}
+              sx={{ mt: 1 }}
+            >
+              Rechercher
+            </Button>
           </Box>
         </DialogContent>
       </Dialog>
@@ -277,55 +417,48 @@ const Counter: React.FC = () => {
                 handleCounterMonsterSelect
               ))}
             </Box>
+            <Box sx={{ mb: 2, minHeight: 300, '& .tox-tinymce': { border: '1px solid rgba(0, 0, 0, 0.23)', borderRadius: 1 } }}>
+              <Editor
+                apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
+                onInit={(evt, editor) => editorRef.current = editor}
+                init={{
+                  height: 300,
+                  menubar: false,
+                  plugins: [
+                    'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
+                    'anchor', 'searchreplace', 'visualblocks', 'code', 'fullscreen',
+                    'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount'
+                  ],
+                  toolbar: 'undo redo | blocks | ' +
+                    'bold italic forecolor | alignleft aligncenter ' +
+                    'alignright alignjustify | bullist numlist outdent indent | ' +
+                    'removeformat | help',
+                  content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
+                  branding: false,
+                  promotion: false,
+                  language: 'fr_FR',
+                  placeholder: 'Décrivez la stratégie de ce counter...'
+                }}
+              />
+            </Box>
             <Button 
               variant="contained" 
               onClick={() => {
-                if (selectedDefenseTeam) {
-                  handleSaveCounterTeam(selectedDefenseTeam.id);
+                if (selectedDefenseTeam && editorRef.current) {
+                  const description = editorRef.current.getContent();
+                  const counterTeamName = counterMonsters.map(m => m.name).join(' - ');
+                  handleSaveCounterTeam(selectedDefenseTeam.id, counterTeamName, description);
                   setOpenCounterDialog(false);
                 }
               }}
               disabled={counterMonsters.length !== 3 || counterMonsters.some(m => !m)}
+              sx={{ mt: 2 }}
             >
               Sauvegarder l'équipe counter
             </Button>
           </Box>
         </DialogContent>
       </Dialog>
-
-      {/* Liste des équipes de défense */}
-      <Grid container spacing={3}>
-        {defenseTeams.map((team) => (
-          <Grid item xs={12} md={6} key={team.id}>
-            <Card 
-              sx={{ 
-                cursor: 'pointer',
-                '&:hover': {
-                  bgcolor: 'action.hover'
-                }
-              }}
-              onClick={() => handleDefenseClick(team)}
-            >
-              <CardContent>
-                <Typography variant="h6">{team.name}</Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Monstres: {team.monsters.map(m => m.name).join(', ')}
-                </Typography>
-                <Button 
-                  variant="outlined" 
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleAddCounter(team);
-                  }}
-                  sx={{ mt: 2 }}
-                >
-                  Ajouter un counter
-                </Button>
-              </CardContent>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
     </Box>
   );
 };
