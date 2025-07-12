@@ -35,7 +35,7 @@ jobs:
       - name: Deploy to Preprod (preprod.sinacademie.fr)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER_PREPROD }}
+          server: ftp://82.25.113.22
           username: ${{ secrets.FTP_USERNAME_PREPROD }}
           password: ${{ secrets.FTP_PASSWORD_PREPROD }}
           local-dir: ./dist/
