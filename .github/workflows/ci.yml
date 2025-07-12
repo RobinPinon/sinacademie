@@ -1,0 +1,95 @@
+name: CI/CD - SinAcademie
+
+on:
+  push:
+    branches: [ dev, preprod, prod ]
+  pull_request:
+    branches: [ dev, preprod, prod ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run linting
+      run: npm run lint
+    
+    - name: Type check
+      run: npx tsc --noEmit
+    
+    - name: Build project
+      run: npm run build
+    
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-files
+        path: dist/
+        retention-days: 7
+
+  deploy-dev:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/dev'
+    
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: build-files
+        path: dist/
+    
+    - name: Deploy to DEV environment
+      run: |
+        echo "Deploying to DEV environment..."
+        # Configuration pour l'environnement DEV
+        # Exemple : Vercel, Netlify, ou autre plateforme
+
+  deploy-preprod:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/preprod'
+    
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: build-files
+        path: dist/
+    
+    - name: Deploy to PREPROD environment
+      run: |
+        echo "Deploying to PREPROD environment..."
+        # Configuration pour l'environnement PREPROD
+        # Exemple : Vercel, Netlify, ou autre plateforme
+
+  deploy-prod:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/prod'
+    environment: production
+    
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: build-files
+        path: dist/
+    
+    - name: Deploy to PRODUCTION environment
+      run: |
+        echo "Deploying to PRODUCTION environment..."
+        # Configuration pour l'environnement PRODUCTION
+        # Exemple : Vercel, Netlify, ou autre plateforme 
