@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build
-          path: build/   # ✅ React crée le dossier "build"
+          path: dist/
 
   deploy-preprod:
     needs: build
@@ -31,16 +31,15 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: build
-          path: build/
+          path: dist/
       - name: Deploy to Preprod (preprod.sinacademie.fr)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER_PREPROD }}
           username: ${{ secrets.FTP_USERNAME_PREPROD }}
           password: ${{ secrets.FTP_PASSWORD_PREPROD }}
-          local-dir: ./build/
+          local-dir: ./dist/
           server-dir: /public_html/preprod/
-          delete: true
 
   deploy-prod:
     needs: build
@@ -50,13 +49,12 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: build
-          path: build/
+          path: dist/
       - name: Deploy to Prod (sinacademie.fr)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER_PROD }}
           username: ${{ secrets.FTP_USERNAME_PROD }}
           password: ${{ secrets.FTP_PASSWORD_PROD }}
-          local-dir: ./build/
+          local-dir: ./dist/
           server-dir: /public_html/
-          delete: true
