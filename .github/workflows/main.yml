@@ -1,0 +1,60 @@
+name: CI/CD - SinAcademie
+
+on:
+  push:
+    branches: [ dev, prod ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint
+      - run: npx tsc --noEmit
+      - run: npm run build
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: dist/
+
+  deploy-preprod:
+    needs: build
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build
+          path: dist/
+      - name: Deploy to Preprod (preprod.sinacademie.fr)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER_PREPROD }}
+          username: ${{ secrets.FTP_USERNAME_PREPROD }}
+          password: ${{ secrets.FTP_PASSWORD_PREPROD }}
+          local-dir: ./dist/
+          server-dir: /
+
+  deploy-prod:
+    needs: build
+    if: github.ref == 'refs/heads/prod'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build
+          path: dist/
+      - name: Deploy to Prod (sinacademie.fr)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER_PROD }}
+          username: ${{ secrets.FTP_USERNAME_PROD }}
+          password: ${{ secrets.FTP_PASSWORD_PROD }}
+          local-dir: ./dist/
+          server-dir: /public_html/
