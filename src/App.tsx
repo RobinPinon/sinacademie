@@ -17,7 +17,7 @@ function App() {
 function Home() {
   return (
     <div>
-      <h1>Page d'accueil 3</h1>
+      <h1>Page d'accueil test</h1>
       <p>Bienvenue sur mon application React avec Router !</p>
     </div>
   )
