@@ -1,0 +1,17 @@
+// Fichier principal SCSS moderne
+// Utilisation de @use au lieu de @import (déprécié)
+
+// Variables globales (doit être en premier pour être accessible partout)
+@use 'globals' as *;
+
+// Mixins globaux
+@use 'mixins' as *;
+
+// Styles de base
+@use 'base';
+
+// Composants
+@use '../components/components';
+
+// Pages
+@use '../pages/pages';
