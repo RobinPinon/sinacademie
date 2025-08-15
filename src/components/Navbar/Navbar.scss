@@ -1,0 +1,37 @@
+.navbar ul {
+	display: flex;
+	gap: 1rem;
+    padding: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul:has(li a:hover) li a:not(:hover) {
+    opacity: 0.5;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: var(--fz-1-25);
+    text-transform: uppercase;
+    color: var(--primaryColor);
+    transition: opacity .2s ease-in-out;
+}
+
+.logout {
+	padding: 10px 12px;
+	border-radius: 10px;
+	border: 1px solid #ef4444;
+	color: #fff;
+	background: #ef4444;
+	cursor: pointer;
+    transition: background .2s ease-in-out, color .2s ease-in-out;
+	&:hover {
+		background: #fef2f2;
+        color: #ef4444;
+	}
+}

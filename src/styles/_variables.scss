@@ -1,26 +1,27 @@
-// Variables SCSS globales
-// Couleurs
-// $primary-color: #007bff;
-// $secondary-color: #6c757d;
-// $success-color: #28a745;
-// $danger-color: #dc3545;
-// $warning-color: #ffc107;
-// $info-color: #17a2b8;
+/*
+|--------------------------------------------------------------------------
+| Colors
+|--------------------------------------------------------------------------
+|
+|
+|
+*/
 
-// Typographie
-// $font-family-base: 'Arial', sans-serif;
-// $font-size-base: 16px;
-// $line-height-base: 1.5;
+:root {
+    --primaryColor: #202020;
+}
 
-// Espacements
-// $spacing-xs: 0.25rem;
-// $spacing-sm: 0.5rem;
-// $spacing-md: 1rem;
-// $spacing-lg: 1.5rem;
-// $spacing-xl: 3rem;
+/*
+|--------------------------------------------------------------------------
+| Sizes
+|--------------------------------------------------------------------------
+|
+|
+|
+*/
 
-// Breakpoints
-// $breakpoint-sm: 576px;
-// $breakpoint-md: 768px;
-// $breakpoint-lg: 992px;
-// $breakpoint-xl: 1200px;
+:root {
+    --fz-1: 1rem;
+    --fz-1-25: 1.25rem;
+    --fz-1-5: 1.5rem;
+}
