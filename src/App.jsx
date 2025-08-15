@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from './supabaseClient';
 import Navbar from './components/Navbar/Navbar';
-import AppRoutes from './routes';
+import AppRoutes from './Routes';
 
 export default function App() {
   const [session, setSession] = useState(null);
