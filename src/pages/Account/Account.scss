@@ -8,176 +8,176 @@
 	h1 {
 		margin-bottom: 20px;
 	}
+}
 
-	&__content {
-		// Styles pour le contenu principal
-	}
+// .account__content {
+// 	// Styles pour le contenu principal
+// }
 
-	&__info {
-		// Mode affichage des informations
-	}
+// .account__info {
+// 	// Mode affichage des informations
+// }
 
-	&__field {
-		margin-bottom: 20px;
-
-		label {
-			display: block;
-			font-weight: 600;
-			color: #374151;
-			margin-bottom: 5px;
-		}
-
-		p {
-			margin: 0;
-			padding: 10px;
-			background: white;
-			border: 1px solid #e5e7eb;
-			border-radius: 4px;
-			color: #111827;
-		}
-	}
-
-	&__edit-btn {
-		background: #2563eb;
-		color: white;
-		border: none;
-		padding: 10px 20px;
-		border-radius: 4px;
-		cursor: pointer;
-		font-size: 14px;
-		width: 100%;
-
-		&:hover {
-			background: #1d4ed8;
-		}
-
-		&:disabled {
-			background: #9ca3af;
-			cursor: not-allowed;
-		}
-	}
-
-	&__form {
-		// Mode édition du formulaire
-	}
+.account__field {
+	margin-bottom: 20px;
 
 	label {
 		display: block;
-		margin-bottom: 15px;
-
-		input {
-			display: block;
-			width: 100%;
-			padding: 8px;
-			margin-top: 5px;
-			border: 1px solid #ccc;
-			border-radius: 4px;
-		}
+		font-weight: 600;
+		color: #374151;
+		margin-bottom: 5px;
 	}
 
-	&__form-actions {
-		display: flex;
-		gap: 10px;
-		margin-top: 20px;
+	p {
+		margin: 0;
+		padding: 10px;
+		background: white;
+		border: 1px solid #e5e7eb;
+		border-radius: 4px;
+		color: #111827;
+	}
+}
 
-		button {
-			flex: 1;
-			padding: 10px 15px;
-			border: none;
-			border-radius: 4px;
-			cursor: pointer;
-			font-size: 14px;
+.account__edit-btn {
+	background: #2563eb;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	width: 100%;
 
-			&:first-child {
-				background: #2563eb;
-				color: white;
-
-				&:hover {
-					background: #1d4ed8;
-				}
-
-				&:disabled {
-					background: #9ca3af;
-					cursor: not-allowed;
-				}
-			}
-
-			&.account__cancel-btn {
-				background: #6b7280;
-				color: white;
-
-				&:hover {
-					background: #4b5563;
-				}
-
-				&:disabled {
-					background: #9ca3af;
-					cursor: not-allowed;
-				}
-			}
-		}
+	&:hover {
+		background: #1d4ed8;
 	}
 
-	&__json-section {
-		margin-top: 30px;
-		padding-top: 20px;
-		border-top: 1px solid #e5e7eb;
-
-		h2 {
-			margin-bottom: 20px;
-			color: #374151;
-			font-size: 18px;
-		}
+	&:disabled {
+		background: #9ca3af;
+		cursor: not-allowed;
 	}
+}
 
-	&__json-info {
-		margin-bottom: 20px;
-	}
+// .account__form {
+// 	// Mode édition du formulaire
+// }
 
-	&__filename {
-		font-family: monospace;
-		font-size: 12px;
-		background: #f3f4f6 !important;
-		color: #6b7280 !important;
-		word-break: break-all;
-	}
+label {
+	display: block;
+	margin-bottom: 15px;
 
-	&__import-section {
-		position: relative;
-	}
-
-	&__file-input {
-		position: absolute;
-		opacity: 0;
-		width: 0;
-		height: 0;
-		pointer-events: none;
-	}
-
-	&__import-btn {
+	input {
 		display: block;
-		padding: 12px 20px;
-		background: #10b981;
-		color: white;
+		width: 100%;
+		padding: 8px;
+		margin-top: 5px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+}
+
+.account__form-actions {
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+
+	button {
+		flex: 1;
+		padding: 10px 15px;
 		border: none;
 		border-radius: 4px;
 		cursor: pointer;
 		font-size: 14px;
-		text-align: center;
-		transition: background-color 0.2s;
 
-		&:hover {
-			background: #059669;
+		&:first-child {
+			background: #2563eb;
+			color: white;
+
+			&:hover {
+				background: #1d4ed8;
+			}
+
+			&:disabled {
+				background: #9ca3af;
+				cursor: not-allowed;
+			}
 		}
 
-		&.importing {
+		&.account__cancel-btn {
 			background: #6b7280;
-			cursor: not-allowed;
-		}
+			color: white;
 
-		&:disabled {
-			background: #9ca3af;
-			cursor: not-allowed;
+			&:hover {
+				background: #4b5563;
+			}
+
+			&:disabled {
+				background: #9ca3af;
+				cursor: not-allowed;
+			}
 		}
+	}
+}
+
+.account__json-section {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid #e5e7eb;
+
+	h2 {
+		margin-bottom: 20px;
+		color: #374151;
+		font-size: 18px;
+	}
+}
+
+.account__json-info {
+	margin-bottom: 20px;
+}
+
+.account__filename {
+	font-family: monospace;
+	font-size: 12px;
+	background: #f3f4f6 !important;
+	color: #6b7280 !important;
+	word-break: break-all;
+}
+
+.account__import-section {
+	position: relative;
+}
+
+.account__file-input {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.account__import-btn {
+	display: block;
+	padding: 12px 20px;
+	background: #10b981;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	transition: background-color 0.2s;
+
+	&:hover {
+		background: #059669;
+	}
+
+	&.importing {
+		background: #6b7280;
+		cursor: not-allowed;
+	}
+
+	&:disabled {
+		background: #9ca3af;
+		cursor: not-allowed;
 	}
 }
