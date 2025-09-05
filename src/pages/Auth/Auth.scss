@@ -40,6 +40,18 @@
 		}
 	}
 
+	input[type="text"] {
+		@extend .auth__input;
+	}
+
+	input[type="email"] {
+		@extend .auth__input;
+	}
+
+	input[type="password"] {
+		@extend .auth__input;
+	}
+
 	&__msg {
 		color: #065f46;
 		background: #ecfdf5;

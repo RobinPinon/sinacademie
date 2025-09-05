@@ -6,6 +6,7 @@ import "./Auth.scss";
 export default function Auth() {
 	const [mode, setMode] = useState("login"); // 'login' | 'signup'
 	const [email, setEmail] = useState("");
+	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [loading, setLoading] = useState(false);
 	const [message, setMessage] = useState("");
@@ -16,6 +17,7 @@ export default function Auth() {
 		setError("");
 		setMessage("");
 		setPassword("");
+		setUsername("");
 	};
 
 	// Vérification de la force du mot de passe
@@ -28,6 +30,16 @@ export default function Auth() {
 	};
 
 	const isPasswordStrong = Object.values(passwordCriteria).every(Boolean);
+
+	// Fonction pour déterminer si l'identifiant est un email ou un nom d'utilisateur
+	const isEmail = (identifier) => {
+		return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(identifier);
+	};
+
+	// Fonction pour obtenir l'identifiant de connexion (email ou username)
+	const getLoginIdentifier = () => {
+		return mode === "login" ? (username || email) : email;
+	};
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -45,20 +57,71 @@ export default function Auth() {
 
 		try {
 			if (mode === "signup") {
-				const { error } = await supabase.auth.signUp({
+				const { data, error } = await supabase.auth.signUp({
 					email,
 					password,
 				});
 				if (error) throw error;
+
+				// Si l'inscription réussit et qu'on a un username, créer le profil
+				if (data.user && username) {
+					const { error: profileError } = await supabase
+						.from('profiles')
+						.insert({
+							id: data.user.id,
+							email: email,
+							username: username
+						});
+
+					if (profileError) {
+						console.error('Erreur lors de la création du profil:', profileError);
+					}
+				}
+
 				setMessage(
 					"Inscription réussie. Vérifie tes e-mails pour confirmer."
 				);
 			} else {
-				const { error } = await supabase.auth.signInWithPassword({
-					email,
-					password,
-				});
-				if (error) throw error;
+				// Pour la connexion, on peut utiliser email ou username
+				const identifier = getLoginIdentifier();
+				
+				if (!identifier) {
+					setError("Veuillez saisir un email ou un nom d'utilisateur.");
+					return;
+				}
+
+				// Si c'est un email, on se connecte directement
+				if (isEmail(identifier)) {
+					const { error } = await supabase.auth.signInWithPassword({
+						email: identifier,
+						password,
+					});
+					if (error) throw error;
+				} else {
+					// Si c'est un username, on récupère l'email associé depuis la table profiles
+					try {
+						const { data: profile, error: profileError } = await supabase
+							.from('profiles')
+							.select('email')
+							.eq('username', identifier)
+							.single();
+
+						if (profileError || !profile) {
+							setError("Nom d'utilisateur introuvable.");
+							return;
+						}
+
+						// Connexion avec l'email récupéré
+						const { error } = await supabase.auth.signInWithPassword({
+							email: profile.email,
+							password,
+						});
+						if (error) throw error;
+					} catch (profileErr) {
+						setError(profileErr.message || "Erreur lors de la connexion par nom d'utilisateur.");
+						return;
+					}
+				}
 			}
 		} catch (err) {
 			setError(err.message || "Une erreur est survenue.");
@@ -73,16 +136,54 @@ export default function Auth() {
 				<h1>{mode === "login" ? "Connexion" : "Créer un compte"}</h1>
 
 				<form onSubmit={handleSubmit} className="auth__form">
-					<label>
-						<span>Email</span>
-						<input
-							type="email"
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
-							required
-							autoComplete="email"
-						/>
-					</label>
+					{mode === "login" && (
+						<label>
+							<span>Email ou nom d'utilisateur</span>
+							<input
+								type="text"
+								value={username || email}
+								onChange={(e) => {
+									const value = e.target.value;
+									if (isEmail(value)) {
+										setEmail(value);
+										setUsername("");
+									} else {
+										setUsername(value);
+										setEmail("");
+									}
+								}}
+								required
+								autoComplete="username"
+								placeholder="Saisis ton email ou nom d'utilisateur"
+							/>
+						</label>
+					)}
+
+					{mode === "signup" && (
+						<>
+							<label>
+								<span>Email</span>
+								<input
+									type="email"
+									value={email}
+									onChange={(e) => setEmail(e.target.value)}
+									required
+									autoComplete="email"
+								/>
+							</label>
+
+							<label>
+								<span>Nom d'utilisateur (optionnel)</span>
+								<input
+									type="text"
+									value={username}
+									onChange={(e) => setUsername(e.target.value)}
+									autoComplete="username"
+									placeholder="Choisis un nom d'utilisateur"
+								/>
+							</label>
+						</>
+					)}
 
 					<label>
 						<span>Mot de passe</span>
