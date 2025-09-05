@@ -1,0 +1,4097 @@
+[
+    {
+        "com2usmonsterid": "20831",
+        "title": "Tractor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0126_3_1.png"
+    },
+    {
+        "com2usmonsterid": "16531",
+        "title": "Nickel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0125_3_1.png"
+    },
+    {
+        "com2usmonsterid": "16031",
+        "title": "Hemos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0071_3_0.png"
+    },
+    {
+        "com2usmonsterid": "15931",
+        "title": "Megan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0083_3_1.png"
+    },
+    {
+        "com2usmonsterid": "15231",
+        "title": "Allen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0082_3_1.png"
+    },
+    {
+        "com2usmonsterid": "15031",
+        "title": "Mina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_0_2.png"
+    },
+    {
+        "com2usmonsterid": "14031",
+        "title": "Vigor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_0_1.png"
+    },
+    {
+        "com2usmonsterid": "13231",
+        "title": "Lulu and Friends",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0070_3_0.png"
+    },
+    {
+        "com2usmonsterid": "12131",
+        "title": "Sisroo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0160_3_1.png"
+    },
+    {
+        "com2usmonsterid": "12031",
+        "title": "Ellena",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0074_3_1.png"
+    },
+    {
+        "com2usmonsterid": "11531",
+        "title": "Kahn",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0055_0_0.png"
+    },
+    {
+        "com2usmonsterid": "11031",
+        "title": "Icaru",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_0_3.png"
+    },
+    {
+        "com2usmonsterid": "10731",
+        "title": "Dagora",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_0_2.png"
+    },
+    {
+        "com2usmonsterid": "10331",
+        "title": "Kacey",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_0_1.png"
+    },
+    {
+        "com2usmonsterid": "10131",
+        "title": "Elucia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_0_0.png"
+    },
+    {
+        "com2usmonsterid": "1000111",
+        "title": "Water Homunculus(Attack)",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0042_0_2.png"
+    },
+    {
+        "com2usmonsterid": "33411",
+        "title": "Water Nina Williams",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0184_1_1.png"
+    },
+    {
+        "com2usmonsterid": "33311",
+        "title": "Water Paul Phoenix",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0186_1_1.png"
+    },
+    {
+        "com2usmonsterid": "33211",
+        "title": "Water Hwoarang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0185_1_1.png"
+    },
+    {
+        "com2usmonsterid": "32911",
+        "title": "Water Qilin Slasher / Zenitsu Agatsuma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0181_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32811",
+        "title": "Water White Tiger Blade Master / Inosuke Hashibira",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0182_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32611",
+        "title": "Water Vermilion Bird Dancer / Nezuko Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0180_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32311",
+        "title": "Gideon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0177_1_1.png"
+    },
+    {
+        "com2usmonsterid": "31311",
+        "title": "Lamiella",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0175_1_1.png"
+    },
+    {
+        "com2usmonsterid": "31211",
+        "title": "Water Exorcist Association Hunter / Nobara Kugisaki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0164_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31011",
+        "title": "Water Exorcist Association Fighter / Yuji Itadori",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0163_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30911",
+        "title": "Water Exorcist Association Resolver / Satoru Gojo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0166_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30711",
+        "title": "Solvark",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0161_1_1.png"
+    },
+    {
+        "com2usmonsterid": "30011",
+        "title": "K1D",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0146_1_1.png"
+    },
+    {
+        "com2usmonsterid": "29811",
+        "title": "Johanna / Yennefer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0152_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29711",
+        "title": "Rigna / Ciri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0151_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29611",
+        "title": "Anders / Geralt",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0150_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29111",
+        "title": "Ramael and Judiah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0136_1_1.png"
+    },
+    {
+        "com2usmonsterid": "28911",
+        "title": "Jeongnam",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0133_1_1.png"
+    },
+    {
+        "com2usmonsterid": "28611",
+        "title": "Irene",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0127_1_1.png"
+    },
+    {
+        "com2usmonsterid": "28311",
+        "title": "Parjanya",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0118_1_1.png"
+    },
+    {
+        "com2usmonsterid": "28211",
+        "title": "Brita / Eivor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0117_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27911",
+        "title": "Lionel / Ezio",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0114_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27211",
+        "title": "Zibala",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0106_1_1.png"
+    },
+    {
+        "com2usmonsterid": "26911",
+        "title": "Manon / Hollyberry Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0097_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26811",
+        "title": "Adriana / Pure Vanilla Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0099_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26111",
+        "title": "Amber",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0087_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25911",
+        "title": "Minato",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0086_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25711",
+        "title": "Liam",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0080_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25611",
+        "title": "Aaliyah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0078_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25311",
+        "title": "Miles",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0076_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25211",
+        "title": "Nana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0075_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25011",
+        "title": "Shizuka",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0072_1_1.png"
+    },
+    {
+        "com2usmonsterid": "24711",
+        "title": "Borgnine / M. BISON",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0068_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24511",
+        "title": "Moore / RYU",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0066_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23711",
+        "title": "Haegang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0056_1_1.png"
+    },
+    {
+        "com2usmonsterid": "23511",
+        "title": "Barbara",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0054_0_0.png"
+    },
+    {
+        "com2usmonsterid": "23111",
+        "title": "Belial",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_0_4.png"
+    },
+    {
+        "com2usmonsterid": "22611",
+        "title": "Bolverk",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_0_2.png"
+    },
+    {
+        "com2usmonsterid": "22211",
+        "title": "Abellio",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_0_2.png"
+    },
+    {
+        "com2usmonsterid": "21811",
+        "title": "Josephine",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_0_4.png"
+    },
+    {
+        "com2usmonsterid": "21511",
+        "title": "Amelia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_0_4.png"
+    },
+    {
+        "com2usmonsterid": "21211",
+        "title": "Mo Long",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_0_4.png"
+    },
+    {
+        "com2usmonsterid": "21111",
+        "title": "Psamathe",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_0_3.png"
+    },
+    {
+        "com2usmonsterid": "20511",
+        "title": "Bastet",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_0_2.png"
+    },
+    {
+        "com2usmonsterid": "19711",
+        "title": "Poseidon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_0_3.png"
+    },
+    {
+        "com2usmonsterid": "19211",
+        "title": "Theomars",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_0_2.png"
+    },
+    {
+        "com2usmonsterid": "18911",
+        "title": "Alicia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_0_3.png"
+    },
+    {
+        "com2usmonsterid": "18611",
+        "title": "Woosa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_0_1.png"
+    },
+    {
+        "com2usmonsterid": "17911",
+        "title": "Beth",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0023_0_1.png"
+    },
+    {
+        "com2usmonsterid": "17411",
+        "title": "Chandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_0_1.png"
+    },
+    {
+        "com2usmonsterid": "17011",
+        "title": "Ariel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0019_0_2.png"
+    },
+    {
+        "com2usmonsterid": "16811",
+        "title": "Shi Hou",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_0_4.png"
+    },
+    {
+        "com2usmonsterid": "16611",
+        "title": "Chow",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_0_0.png"
+    },
+    {
+        "com2usmonsterid": "16111",
+        "title": "Anavel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_0_4.png"
+    },
+    {
+        "com2usmonsterid": "15711",
+        "title": "Praha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_0_1.png"
+    },
+    {
+        "com2usmonsterid": "14611",
+        "title": "Taor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_0_2.png"
+    },
+    {
+        "com2usmonsterid": "14511",
+        "title": "Sigmarus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_0_3.png"
+    },
+    {
+        "com2usmonsterid": "14411",
+        "title": "Verad",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_0_0.png"
+    },
+    {
+        "com2usmonsterid": "13811",
+        "title": "Camilla",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_0_2.png"
+    },
+    {
+        "com2usmonsterid": "33111",
+        "title": "Water Jin Kazama",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0187_1_1.png"
+    },
+    {
+        "com2usmonsterid": "32511",
+        "title": "Water Azure Dragon Swordsman / Tanjiro Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0179_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31411",
+        "title": "Mork",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0176_1_1.png"
+    },
+    {
+        "com2usmonsterid": "31111",
+        "title": "Water Exorcist Association Conjurer / Megumi Fushiguro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0165_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30111",
+        "title": "Lorenza",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0145_1_1.png"
+    },
+    {
+        "com2usmonsterid": "29911",
+        "title": "Lumina / Triss",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0153_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29011",
+        "title": "Minji and Sapsaree",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0132_1_1.png"
+    },
+    {
+        "com2usmonsterid": "28511",
+        "title": "Mayasura",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0119_1_1.png"
+    },
+    {
+        "com2usmonsterid": "28111",
+        "title": "Kalantatze / Kassandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0116_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "28011",
+        "title": "Omar / Bayek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0115_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27111",
+        "title": "Ganache / Madeleine Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0098_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27011",
+        "title": "Rosemary / Espresso Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0100_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26011",
+        "title": "Birman",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0085_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25811",
+        "title": "Susan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0081_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25411",
+        "title": "ROBO-R40",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0077_1_1.png"
+    },
+    {
+        "com2usmonsterid": "25111",
+        "title": "Suiki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0073_1_1.png"
+    },
+    {
+        "com2usmonsterid": "24911",
+        "title": "Lariel / CHUN-LI",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0065_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24811",
+        "title": "Kyle / DHALSIM",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0064_1_1_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23911",
+        "title": "Songseol",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0057_1_1.png"
+    },
+    {
+        "com2usmonsterid": "23311",
+        "title": "Tanzaite",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_0_2.png"
+    },
+    {
+        "com2usmonsterid": "22911",
+        "title": "Abigail",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0049_0_4.png"
+    },
+    {
+        "com2usmonsterid": "22711",
+        "title": "Covenant",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0048_0_1.png"
+    },
+    {
+        "com2usmonsterid": "22111",
+        "title": "Herne",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_0_1.png"
+    },
+    {
+        "com2usmonsterid": "22011",
+        "title": "Sabrina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_0_3.png"
+    },
+    {
+        "com2usmonsterid": "21911",
+        "title": "Talia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_0_1.png"
+    },
+    {
+        "com2usmonsterid": "21411",
+        "title": "Sonnet",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_0_2.png"
+    },
+    {
+        "com2usmonsterid": "21311",
+        "title": "Reno",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_0_0.png"
+    },
+    {
+        "com2usmonsterid": "20711",
+        "title": "Chilling",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_0_1.png"
+    },
+    {
+        "com2usmonsterid": "20611",
+        "title": "Qebehsenuef",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_0_0.png"
+    },
+    {
+        "com2usmonsterid": "20411",
+        "title": "Avaris",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_0_1.png"
+    },
+    {
+        "com2usmonsterid": "20111",
+        "title": "Emma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_0_1.png"
+    },
+    {
+        "com2usmonsterid": "20011",
+        "title": "Ryan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_0_0.png"
+    },
+    {
+        "com2usmonsterid": "19911",
+        "title": "Stella",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_0_2.png"
+    },
+    {
+        "com2usmonsterid": "19811",
+        "title": "Lapis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_0_4.png"
+    },
+    {
+        "com2usmonsterid": "19611",
+        "title": "Tetra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_0_0.png"
+    },
+    {
+        "com2usmonsterid": "19411",
+        "title": "Galleon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_0_0.png"
+    },
+    {
+        "com2usmonsterid": "18811",
+        "title": "Aegir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_0_0.png"
+    },
+    {
+        "com2usmonsterid": "18411",
+        "title": "Gildong",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_0_0.png"
+    },
+    {
+        "com2usmonsterid": "18311",
+        "title": "Mihyang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_0_3.png"
+    },
+    {
+        "com2usmonsterid": "18111",
+        "title": "Malaka",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_0_1.png"
+    },
+    {
+        "com2usmonsterid": "18011",
+        "title": "Orion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_0_4.png"
+    },
+    {
+        "com2usmonsterid": "17311",
+        "title": "Xiao Lin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0008_0_4.png"
+    },
+    {
+        "com2usmonsterid": "16911",
+        "title": "Kaz",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_0_1.png"
+    },
+    {
+        "com2usmonsterid": "16311",
+        "title": "Rigel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_0_1.png"
+    },
+    {
+        "com2usmonsterid": "16211",
+        "title": "Fedora",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_0_3.png"
+    },
+    {
+        "com2usmonsterid": "15511",
+        "title": "Su",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_0_4.png"
+    },
+    {
+        "com2usmonsterid": "14711",
+        "title": "Liesel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_0_2.png"
+    },
+    {
+        "com2usmonsterid": "14111",
+        "title": "Luer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0015_0_3.png"
+    },
+    {
+        "com2usmonsterid": "13911",
+        "title": "Julie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_0_4.png"
+    },
+    {
+        "com2usmonsterid": "13511",
+        "title": "Susano",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0013_0_3.png"
+    },
+    {
+        "com2usmonsterid": "13411",
+        "title": "Sian",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_0_2.png"
+    },
+    {
+        "com2usmonsterid": "13311",
+        "title": "Izaria",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_0_3.png"
+    },
+    {
+        "com2usmonsterid": "11911",
+        "title": "Lumirecia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0009_0_4.png"
+    },
+    {
+        "com2usmonsterid": "11811",
+        "title": "Tyron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_0_0.png"
+    },
+    {
+        "com2usmonsterid": "11611",
+        "title": "Mikene",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_0_1.png"
+    },
+    {
+        "com2usmonsterid": "11211",
+        "title": "Soha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_0_3.png"
+    },
+    {
+        "com2usmonsterid": "22411",
+        "title": "Bagir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_0_0.png"
+    },
+    {
+        "com2usmonsterid": "21011",
+        "title": "Remy",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_0_2.png"
+    },
+    {
+        "com2usmonsterid": "20911",
+        "title": "Eluin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_0_1.png"
+    },
+    {
+        "com2usmonsterid": "20311",
+        "title": "Nubia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_0_3.png"
+    },
+    {
+        "com2usmonsterid": "20211",
+        "title": "Luan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_0_3.png"
+    },
+    {
+        "com2usmonsterid": "19511",
+        "title": "Aqcus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_0_2.png"
+    },
+    {
+        "com2usmonsterid": "19311",
+        "title": "Sera",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_0_4.png"
+    },
+    {
+        "com2usmonsterid": "19011",
+        "title": "Talc",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_0_1.png"
+    },
+    {
+        "com2usmonsterid": "18711",
+        "title": "Toma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_0_3.png"
+    },
+    {
+        "com2usmonsterid": "18511",
+        "title": "Gangchun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_0_4.png"
+    },
+    {
+        "com2usmonsterid": "17811",
+        "title": "Kernodon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_0_2.png"
+    },
+    {
+        "com2usmonsterid": "17711",
+        "title": "Urtau",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_0_4.png"
+    },
+    {
+        "com2usmonsterid": "17211",
+        "title": "Mao",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_0_3.png"
+    },
+    {
+        "com2usmonsterid": "15811",
+        "title": "Yaku",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_0_1.png"
+    },
+    {
+        "com2usmonsterid": "15611",
+        "title": "Wayne",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_0_2.png"
+    },
+    {
+        "com2usmonsterid": "15411",
+        "title": "Sharron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_0_3.png"
+    },
+    {
+        "com2usmonsterid": "15311",
+        "title": "Rina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_0_1.png"
+    },
+    {
+        "com2usmonsterid": "14911",
+        "title": "Ellin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0018_0_0.png"
+    },
+    {
+        "com2usmonsterid": "13711",
+        "title": "Gruda",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_0_0.png"
+    },
+    {
+        "com2usmonsterid": "11711",
+        "title": "Purian",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_0_3.png"
+    },
+    {
+        "com2usmonsterid": "11411",
+        "title": "Kuhn",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_0_2.png"
+    },
+    {
+        "com2usmonsterid": "11311",
+        "title": "Shailoq",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_0_0.png"
+    },
+    {
+        "com2usmonsterid": "10511",
+        "title": "Ramira",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_0_4.png"
+    },
+    {
+        "com2usmonsterid": "14811",
+        "title": "Huga",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_0_1.png"
+    },
+    {
+        "com2usmonsterid": "11111",
+        "title": "Kaimann",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_0_1.png"
+    },
+    {
+        "com2usmonsterid": "10911",
+        "title": "Konamiya",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_0_2.png"
+    },
+    {
+        "com2usmonsterid": "10811",
+        "title": "Daharenos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_0_0.png"
+    },
+    {
+        "com2usmonsterid": "10611",
+        "title": "Tarq",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0002_0_1.png"
+    },
+    {
+        "com2usmonsterid": "10411",
+        "title": "Kunda",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_0_2.png"
+    },
+    {
+        "com2usmonsterid": "10211",
+        "title": "Fynn",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0000_0_3.png"
+    },
+    {
+        "com2usmonsterid": "12811",
+        "title": "Tigresse",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_0_1.png"
+    },
+    {
+        "com2usmonsterid": "20832",
+        "title": "Bulldozer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0126_3_2.png"
+    },
+    {
+        "com2usmonsterid": "16532",
+        "title": "Iron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0125_3_2.png"
+    },
+    {
+        "com2usmonsterid": "16032",
+        "title": "Sath",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0071_3_1.png"
+    },
+    {
+        "com2usmonsterid": "15932",
+        "title": "Rebecca",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0083_3_2.png"
+    },
+    {
+        "com2usmonsterid": "15232",
+        "title": "Kai'en",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0082_3_2.png"
+    },
+    {
+        "com2usmonsterid": "15032",
+        "title": "Mei",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_1_2.png"
+    },
+    {
+        "com2usmonsterid": "14032",
+        "title": "Garoche",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_1_1.png"
+    },
+    {
+        "com2usmonsterid": "13232",
+        "title": "Lala and Friends",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0070_3_1.png"
+    },
+    {
+        "com2usmonsterid": "12132",
+        "title": "Colleen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0160_3_2.png"
+    },
+    {
+        "com2usmonsterid": "12032",
+        "title": "Kahli",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0074_3_2.png"
+    },
+    {
+        "com2usmonsterid": "11532",
+        "title": "Spectra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0055_0_1.png"
+    },
+    {
+        "com2usmonsterid": "11032",
+        "title": "Raoq",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_1_3.png"
+    },
+    {
+        "com2usmonsterid": "10732",
+        "title": "Ursha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_1_2.png"
+    },
+    {
+        "com2usmonsterid": "10332",
+        "title": "Tatu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_1_1.png"
+    },
+    {
+        "com2usmonsterid": "10132",
+        "title": "Iselia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_1_0.png"
+    },
+    {
+        "com2usmonsterid": "1000112",
+        "title": "Fire Homunculus(Attack)",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0042_1_2.png"
+    },
+    {
+        "com2usmonsterid": "33312",
+        "title": "Fire Paul Phoenix",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0186_1_2.png"
+    },
+    {
+        "com2usmonsterid": "33112",
+        "title": "Fire Jin Kazama",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0187_1_2.png"
+    },
+    {
+        "com2usmonsterid": "33012",
+        "title": "Fire Heihachi Mishima",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0188_1_2.png"
+    },
+    {
+        "com2usmonsterid": "32812",
+        "title": "Fire White Tiger Blade Master / Inosuke Hashibira",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0182_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32612",
+        "title": "Fire Vermilion Bird Dancer / Nezuko Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0180_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32512",
+        "title": "Fire Azure Dragon Swordsman / Tanjiro Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0179_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32312",
+        "title": "Tityus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0177_1_2.png"
+    },
+    {
+        "com2usmonsterid": "31312",
+        "title": "Theodora",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0175_1_2.png"
+    },
+    {
+        "com2usmonsterid": "31112",
+        "title": "Fire Exorcist Association Conjurer / Megumi Fushiguro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0165_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31012",
+        "title": "Fire Exorcist Association Fighter / Yuji Itadori",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0163_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30912",
+        "title": "Fire Exorcist Association Resolver / Satoru Gojo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0166_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30712",
+        "title": "Deragron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0161_1_2.png"
+    },
+    {
+        "com2usmonsterid": "30012",
+        "title": "7R1X",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0146_1_2.png"
+    },
+    {
+        "com2usmonsterid": "29912",
+        "title": "Enshia / Triss",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0153_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29812",
+        "title": "Tarnisha / Yennefer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0152_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29612",
+        "title": "Magnus / Geralt",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0150_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29112",
+        "title": "Karuel and Lanoah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0136_1_2.png"
+    },
+    {
+        "com2usmonsterid": "28912",
+        "title": "Moogwang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0133_1_2.png"
+    },
+    {
+        "com2usmonsterid": "28612",
+        "title": "Bloodya",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0127_1_2.png"
+    },
+    {
+        "com2usmonsterid": "28312",
+        "title": "Vendhan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0118_1_2.png"
+    },
+    {
+        "com2usmonsterid": "28112",
+        "title": "Federica / Kassandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0116_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "28012",
+        "title": "Ashour / Bayek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0115_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27912",
+        "title": "Patrick / Ezio",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0114_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27212",
+        "title": "Zima",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0106_1_2.png"
+    },
+    {
+        "com2usmonsterid": "26912",
+        "title": "Alice / Hollyberry Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0097_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26812",
+        "title": "Lucia / Pure Vanilla Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0099_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26112",
+        "title": "Claire",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0087_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25912",
+        "title": "Ren",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0086_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25712",
+        "title": "Carlos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0080_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25612",
+        "title": "Nora",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0078_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25312",
+        "title": "John",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0076_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25212",
+        "title": "Coco",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0075_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25012",
+        "title": "Tomoe",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0072_1_2.png"
+    },
+    {
+        "com2usmonsterid": "24712",
+        "title": "Karnal / M. BISON",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0068_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24612",
+        "title": "Bernadotte / KEN",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0067_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24512",
+        "title": "Douglas / RYU",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0066_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23712",
+        "title": "Jeogun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0056_1_2.png"
+    },
+    {
+        "com2usmonsterid": "23512",
+        "title": "Masha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0054_1_0.png"
+    },
+    {
+        "com2usmonsterid": "23112",
+        "title": "Bael",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_1_4.png"
+    },
+    {
+        "com2usmonsterid": "22612",
+        "title": "Baleygr",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_1_2.png"
+    },
+    {
+        "com2usmonsterid": "22212",
+        "title": "Bellenus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_1_2.png"
+    },
+    {
+        "com2usmonsterid": "21812",
+        "title": "Ophilia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_1_4.png"
+    },
+    {
+        "com2usmonsterid": "21512",
+        "title": "Helena",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_1_4.png"
+    },
+    {
+        "com2usmonsterid": "21212",
+        "title": "Xiong Fei",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_1_4.png"
+    },
+    {
+        "com2usmonsterid": "21112",
+        "title": "Daphnis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_1_3.png"
+    },
+    {
+        "com2usmonsterid": "20512",
+        "title": "Sekhmet",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_1_2.png"
+    },
+    {
+        "com2usmonsterid": "19712",
+        "title": "Okeanos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_1_3.png"
+    },
+    {
+        "com2usmonsterid": "19212",
+        "title": "Tesarion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_1_2.png"
+    },
+    {
+        "com2usmonsterid": "18912",
+        "title": "Brandia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_1_3.png"
+    },
+    {
+        "com2usmonsterid": "18612",
+        "title": "Chiwu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_1_1.png"
+    },
+    {
+        "com2usmonsterid": "17912",
+        "title": "Raki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0023_1_1.png"
+    },
+    {
+        "com2usmonsterid": "17412",
+        "title": "Kumar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_1_1.png"
+    },
+    {
+        "com2usmonsterid": "17012",
+        "title": "Velajuel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0019_1_2.png"
+    },
+    {
+        "com2usmonsterid": "16812",
+        "title": "Mei Hou Wang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_1_4.png"
+    },
+    {
+        "com2usmonsterid": "16612",
+        "title": "Laika",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_1_0.png"
+    },
+    {
+        "com2usmonsterid": "16112",
+        "title": "Rica",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_1_4.png"
+    },
+    {
+        "com2usmonsterid": "15712",
+        "title": "Juno",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_1_1.png"
+    },
+    {
+        "com2usmonsterid": "14612",
+        "title": "Rakan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_1_2.png"
+    },
+    {
+        "com2usmonsterid": "14512",
+        "title": "Perna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_1_3.png"
+    },
+    {
+        "com2usmonsterid": "14412",
+        "title": "Zaiross",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_1_0.png"
+    },
+    {
+        "com2usmonsterid": "13812",
+        "title": "Vanessa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_1_2.png"
+    },
+    {
+        "com2usmonsterid": "33412",
+        "title": "Fire Nina Williams",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0184_1_2.png"
+    },
+    {
+        "com2usmonsterid": "33212",
+        "title": "Fire Hwoarang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0185_1_2.png"
+    },
+    {
+        "com2usmonsterid": "32912",
+        "title": "Fire Qilin Slasher / Zenitsu Agatsuma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0181_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31412",
+        "title": "Rex",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0176_1_2.png"
+    },
+    {
+        "com2usmonsterid": "31212",
+        "title": "Fire Exorcist Association Hunter / Nobara Kugisaki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0164_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30112",
+        "title": "Carmella",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0145_1_2.png"
+    },
+    {
+        "com2usmonsterid": "29712",
+        "title": "Reyka / Ciri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0151_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29012",
+        "title": "Yeji and Sapsaree",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0132_1_2.png"
+    },
+    {
+        "com2usmonsterid": "28512",
+        "title": "Varuna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0119_1_2.png"
+    },
+    {
+        "com2usmonsterid": "28212",
+        "title": "Solveig / Eivor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0117_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27112",
+        "title": "Pave / Madeleine Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0098_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27012",
+        "title": "Hibiscus / Espresso Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0100_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26012",
+        "title": "Manx",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0085_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25812",
+        "title": "Miriam",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0081_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25412",
+        "title": "ROBO-P27",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0077_1_2.png"
+    },
+    {
+        "com2usmonsterid": "25112",
+        "title": "Kaki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0073_1_2.png"
+    },
+    {
+        "com2usmonsterid": "24912",
+        "title": "Berenice / CHUN-LI",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0065_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24812",
+        "title": "Todd / DHALSIM",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0064_1_2_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23912",
+        "title": "Hongyeon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0057_1_2.png"
+    },
+    {
+        "com2usmonsterid": "23312",
+        "title": "Kunite",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_1_2.png"
+    },
+    {
+        "com2usmonsterid": "22912",
+        "title": "Scarlett",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0049_1_4.png"
+    },
+    {
+        "com2usmonsterid": "22712",
+        "title": "Carcano",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0048_1_1.png"
+    },
+    {
+        "com2usmonsterid": "22112",
+        "title": "Nisha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_1_1.png"
+    },
+    {
+        "com2usmonsterid": "22012",
+        "title": "Maruna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_1_3.png"
+    },
+    {
+        "com2usmonsterid": "21912",
+        "title": "Shaina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_1_1.png"
+    },
+    {
+        "com2usmonsterid": "21412",
+        "title": "Harmonia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_1_2.png"
+    },
+    {
+        "com2usmonsterid": "21312",
+        "title": "Ludo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_1_0.png"
+    },
+    {
+        "com2usmonsterid": "20712",
+        "title": "Smokey",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_1_1.png"
+    },
+    {
+        "com2usmonsterid": "20612",
+        "title": "Duamutef",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_1_0.png"
+    },
+    {
+        "com2usmonsterid": "20412",
+        "title": "Khmun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_1_1.png"
+    },
+    {
+        "com2usmonsterid": "20112",
+        "title": "Lisa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_1_1.png"
+    },
+    {
+        "com2usmonsterid": "20012",
+        "title": "Trevor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_1_0.png"
+    },
+    {
+        "com2usmonsterid": "19912",
+        "title": "Lexy",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_1_2.png"
+    },
+    {
+        "com2usmonsterid": "19812",
+        "title": "Astar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_1_4.png"
+    },
+    {
+        "com2usmonsterid": "19612",
+        "title": "Platy",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_1_0.png"
+    },
+    {
+        "com2usmonsterid": "19412",
+        "title": "Carrack",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_1_0.png"
+    },
+    {
+        "com2usmonsterid": "18812",
+        "title": "Surtr",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_1_0.png"
+    },
+    {
+        "com2usmonsterid": "18312",
+        "title": "Hwahee",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_1_3.png"
+    },
+    {
+        "com2usmonsterid": "18112",
+        "title": "Zibrolta",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_1_1.png"
+    },
+    {
+        "com2usmonsterid": "18012",
+        "title": "Draco",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_1_4.png"
+    },
+    {
+        "com2usmonsterid": "17312",
+        "title": "Hong Hua",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0008_1_4.png"
+    },
+    {
+        "com2usmonsterid": "16912",
+        "title": "Jun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_1_1.png"
+    },
+    {
+        "com2usmonsterid": "16312",
+        "title": "Antares",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_1_1.png"
+    },
+    {
+        "com2usmonsterid": "16212",
+        "title": "Arnold",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_1_3.png"
+    },
+    {
+        "com2usmonsterid": "15512",
+        "title": "Hwa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_1_4.png"
+    },
+    {
+        "com2usmonsterid": "15312",
+        "title": "Chloe",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_1_1.png"
+    },
+    {
+        "com2usmonsterid": "14712",
+        "title": "Verdehile",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_1_2.png"
+    },
+    {
+        "com2usmonsterid": "14112",
+        "title": "Jean",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0015_1_3.png"
+    },
+    {
+        "com2usmonsterid": "13912",
+        "title": "Clara",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_1_4.png"
+    },
+    {
+        "com2usmonsterid": "13512",
+        "title": "Garo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0013_1_3.png"
+    },
+    {
+        "com2usmonsterid": "13412",
+        "title": "Jojo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_1_2.png"
+    },
+    {
+        "com2usmonsterid": "13312",
+        "title": "Akia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_1_3.png"
+    },
+    {
+        "com2usmonsterid": "11912",
+        "title": "Fria",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0009_1_4.png"
+    },
+    {
+        "com2usmonsterid": "11812",
+        "title": "Baretta",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_1_0.png"
+    },
+    {
+        "com2usmonsterid": "11612",
+        "title": "Atenai",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_1_1.png"
+    },
+    {
+        "com2usmonsterid": "11212",
+        "title": "Shihwa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_1_3.png"
+    },
+    {
+        "com2usmonsterid": "22412",
+        "title": "Vidurr",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_1_0.png"
+    },
+    {
+        "com2usmonsterid": "21012",
+        "title": "Racuni",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_1_2.png"
+    },
+    {
+        "com2usmonsterid": "20912",
+        "title": "Adrian",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_1_1.png"
+    },
+    {
+        "com2usmonsterid": "20312",
+        "title": "Sonora",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_1_3.png"
+    },
+    {
+        "com2usmonsterid": "20212",
+        "title": "Sin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_1_3.png"
+    },
+    {
+        "com2usmonsterid": "19512",
+        "title": "Ignicus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_1_2.png"
+    },
+    {
+        "com2usmonsterid": "19312",
+        "title": "Anne",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_1_4.png"
+    },
+    {
+        "com2usmonsterid": "19012",
+        "title": "Granite",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_1_1.png"
+    },
+    {
+        "com2usmonsterid": "18712",
+        "title": "Naki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_1_3.png"
+    },
+    {
+        "com2usmonsterid": "18512",
+        "title": "Nangrim",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_1_4.png"
+    },
+    {
+        "com2usmonsterid": "18412",
+        "title": "Gunpyeong",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_1_0.png"
+    },
+    {
+        "com2usmonsterid": "17812",
+        "title": "Igmanodon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_1_2.png"
+    },
+    {
+        "com2usmonsterid": "17712",
+        "title": "Burentau",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_1_4.png"
+    },
+    {
+        "com2usmonsterid": "17212",
+        "title": "Xiao Chun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_1_3.png"
+    },
+    {
+        "com2usmonsterid": "15812",
+        "title": "Fairo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_1_1.png"
+    },
+    {
+        "com2usmonsterid": "15612",
+        "title": "Randy",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_1_2.png"
+    },
+    {
+        "com2usmonsterid": "15412",
+        "title": "Amanda",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_1_3.png"
+    },
+    {
+        "com2usmonsterid": "14912",
+        "title": "Ceres",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0018_1_0.png"
+    },
+    {
+        "com2usmonsterid": "14812",
+        "title": "Geoffrey",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_1_1.png"
+    },
+    {
+        "com2usmonsterid": "13712",
+        "title": "Kungen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_1_0.png"
+    },
+    {
+        "com2usmonsterid": "11712",
+        "title": "Tagaros",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_1_3.png"
+    },
+    {
+        "com2usmonsterid": "11412",
+        "title": "Kugo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_1_2.png"
+    },
+    {
+        "com2usmonsterid": "11312",
+        "title": "Fao",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_1_0.png"
+    },
+    {
+        "com2usmonsterid": "11112",
+        "title": "Krakdon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_1_1.png"
+    },
+    {
+        "com2usmonsterid": "10512",
+        "title": "Lucasha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_1_4.png"
+    },
+    {
+        "com2usmonsterid": "10912",
+        "title": "Cahule",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_1_2.png"
+    },
+    {
+        "com2usmonsterid": "10812",
+        "title": "Bremis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_1_0.png"
+    },
+    {
+        "com2usmonsterid": "10612",
+        "title": "Sieq",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0002_1_1.png"
+    },
+    {
+        "com2usmonsterid": "10412",
+        "title": "Tantra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_1_2.png"
+    },
+    {
+        "com2usmonsterid": "10212",
+        "title": "Cogma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0000_1_3.png"
+    },
+    {
+        "com2usmonsterid": "12812",
+        "title": "Lamor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_1_1.png"
+    },
+    {
+        "com2usmonsterid": "20833",
+        "title": "Crane",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0126_3_3.png"
+    },
+    {
+        "com2usmonsterid": "16533",
+        "title": "Copper",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0125_3_3.png"
+    },
+    {
+        "com2usmonsterid": "16033",
+        "title": "Hiva",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0071_3_2.png"
+    },
+    {
+        "com2usmonsterid": "15933",
+        "title": "Silia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0083_3_3.png"
+    },
+    {
+        "com2usmonsterid": "15233",
+        "title": "Roid",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0082_3_3.png"
+    },
+    {
+        "com2usmonsterid": "15033",
+        "title": "Naomi",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_2_2.png"
+    },
+    {
+        "com2usmonsterid": "14033",
+        "title": "Shakan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_2_1.png"
+    },
+    {
+        "com2usmonsterid": "13233",
+        "title": "Chichi and Friends",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0070_3_2.png"
+    },
+    {
+        "com2usmonsterid": "12133",
+        "title": "Seal",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0160_3_3.png"
+    },
+    {
+        "com2usmonsterid": "12033",
+        "title": "Moria",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0074_3_3.png"
+    },
+    {
+        "com2usmonsterid": "11533",
+        "title": "Bernard",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0055_0_2.png"
+    },
+    {
+        "com2usmonsterid": "11033",
+        "title": "Ramahan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_2_3.png"
+    },
+    {
+        "com2usmonsterid": "10733",
+        "title": "Ramagos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_2_2.png"
+    },
+    {
+        "com2usmonsterid": "10333",
+        "title": "Shannon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_2_1.png"
+    },
+    {
+        "com2usmonsterid": "10133",
+        "title": "Aeilene",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_2_0.png"
+    },
+    {
+        "com2usmonsterid": "1000113",
+        "title": "Wind Homunculus(Attack)",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0042_2_2.png"
+    },
+    {
+        "com2usmonsterid": "33313",
+        "title": "Wind Paul Phoenix",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0186_1_3.png"
+    },
+    {
+        "com2usmonsterid": "33213",
+        "title": "Wind Hwoarang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0185_1_3.png"
+    },
+    {
+        "com2usmonsterid": "33113",
+        "title": "Wind Jin Kazama",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0187_1_3.png"
+    },
+    {
+        "com2usmonsterid": "32913",
+        "title": "Wind Qilin Slasher / Zenitsu Agatsuma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0181_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32513",
+        "title": "Wind Azure Dragon Swordsman / Tanjiro Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0179_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32413",
+        "title": "Wind Black Tortoise Champion / Gyomei Himejima",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0183_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32313",
+        "title": "Elephas",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0177_1_3.png"
+    },
+    {
+        "com2usmonsterid": "31313",
+        "title": "Orphina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0175_1_3.png"
+    },
+    {
+        "com2usmonsterid": "31213",
+        "title": "Wind Exorcist Association Hunter / Nobara Kugisaki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0164_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31113",
+        "title": "Wind Exorcist Association Conjurer / Megumi Fushiguro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0165_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30913",
+        "title": "Wind Exorcist Association Resolver / Satoru Gojo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0166_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30713",
+        "title": "Ereshion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0161_1_3.png"
+    },
+    {
+        "com2usmonsterid": "30013",
+        "title": "570RM",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0146_1_3.png"
+    },
+    {
+        "com2usmonsterid": "29713",
+        "title": "Tirsa / Ciri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0151_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29613",
+        "title": "Henrik / Geralt",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0150_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29113",
+        "title": "Sadiel and Zeryah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0136_1_3.png"
+    },
+    {
+        "com2usmonsterid": "28913",
+        "title": "Byungchul",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0133_1_3.png"
+    },
+    {
+        "com2usmonsterid": "28613",
+        "title": "Layla",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0127_1_3.png"
+    },
+    {
+        "com2usmonsterid": "28313",
+        "title": "Chakra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0118_1_3.png"
+    },
+    {
+        "com2usmonsterid": "28113",
+        "title": "Eleni / Kassandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0116_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "28013",
+        "title": "Shahat / Bayek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0115_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27213",
+        "title": "Smicer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0106_1_3.png"
+    },
+    {
+        "com2usmonsterid": "26913",
+        "title": "Jade / Hollyberry Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0097_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26813",
+        "title": "Angela / Pure Vanilla Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0099_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26713",
+        "title": "Thomas / GingerBrave",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0096_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26113",
+        "title": "Sonia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0087_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25913",
+        "title": "Zen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0086_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25713",
+        "title": "Dominic",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0080_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25613",
+        "title": "Riley",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0078_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25313",
+        "title": "Oliver",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0076_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25213",
+        "title": "Momo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0075_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25013",
+        "title": "Giou",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0072_1_3.png"
+    },
+    {
+        "com2usmonsterid": "24713",
+        "title": "Sagar / M. BISON",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0068_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24513",
+        "title": "Kashmir / RYU",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0066_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23713",
+        "title": "Cheongpung",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0056_1_3.png"
+    },
+    {
+        "com2usmonsterid": "23513",
+        "title": "Savannah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0054_2_0.png"
+    },
+    {
+        "com2usmonsterid": "23113",
+        "title": "Mephisto",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_2_4.png"
+    },
+    {
+        "com2usmonsterid": "22913",
+        "title": "Christina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0049_2_4.png"
+    },
+    {
+        "com2usmonsterid": "22613",
+        "title": "Odin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_2_2.png"
+    },
+    {
+        "com2usmonsterid": "22213",
+        "title": "Taranys",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_2_2.png"
+    },
+    {
+        "com2usmonsterid": "21813",
+        "title": "Louise",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_2_4.png"
+    },
+    {
+        "com2usmonsterid": "21513",
+        "title": "Diana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_2_4.png"
+    },
+    {
+        "com2usmonsterid": "21213",
+        "title": "Feng Yan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_2_4.png"
+    },
+    {
+        "com2usmonsterid": "21113",
+        "title": "Ganymede",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_2_3.png"
+    },
+    {
+        "com2usmonsterid": "20513",
+        "title": "Hathor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_2_2.png"
+    },
+    {
+        "com2usmonsterid": "19713",
+        "title": "Triton",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_2_3.png"
+    },
+    {
+        "com2usmonsterid": "19213",
+        "title": "Akhamamir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_2_2.png"
+    },
+    {
+        "com2usmonsterid": "18913",
+        "title": "Tiana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_2_3.png"
+    },
+    {
+        "com2usmonsterid": "18613",
+        "title": "Pungbaek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_2_1.png"
+    },
+    {
+        "com2usmonsterid": "17913",
+        "title": "Ethna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0023_2_1.png"
+    },
+    {
+        "com2usmonsterid": "17413",
+        "title": "Ritesh",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_2_1.png"
+    },
+    {
+        "com2usmonsterid": "17013",
+        "title": "Eladriel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0019_2_2.png"
+    },
+    {
+        "com2usmonsterid": "16813",
+        "title": "Xing Zhe",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_2_4.png"
+    },
+    {
+        "com2usmonsterid": "16613",
+        "title": "Leo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_2_0.png"
+    },
+    {
+        "com2usmonsterid": "16113",
+        "title": "Charlotte",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_2_4.png"
+    },
+    {
+        "com2usmonsterid": "15713",
+        "title": "Seara",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_2_1.png"
+    },
+    {
+        "com2usmonsterid": "14613",
+        "title": "Lagmaron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_2_2.png"
+    },
+    {
+        "com2usmonsterid": "14513",
+        "title": "Teshar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_2_3.png"
+    },
+    {
+        "com2usmonsterid": "14413",
+        "title": "Jamire",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_2_0.png"
+    },
+    {
+        "com2usmonsterid": "13813",
+        "title": "Katarina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_2_2.png"
+    },
+    {
+        "com2usmonsterid": "33413",
+        "title": "Wind Nina Williams",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0184_1_3.png"
+    },
+    {
+        "com2usmonsterid": "32813",
+        "title": "Wind White Tiger Blade Master / Inosuke Hashibira",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0182_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32613",
+        "title": "Wind Vermilion Bird Dancer / Nezuko Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0180_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31413",
+        "title": "Gronn",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0176_1_3.png"
+    },
+    {
+        "com2usmonsterid": "31013",
+        "title": "Wind Exorcist Association Fighter / Yuji Itadori",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0163_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30113",
+        "title": "Eliza",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0145_1_3.png"
+    },
+    {
+        "com2usmonsterid": "29913",
+        "title": "Nobella / Triss",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0153_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29813",
+        "title": "Hexarina / Yennefer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0152_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29013",
+        "title": "Yuna and Sapsaree",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0132_1_3.png"
+    },
+    {
+        "com2usmonsterid": "28513",
+        "title": "Usha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0119_1_3.png"
+    },
+    {
+        "com2usmonsterid": "28213",
+        "title": "Astrid / Eivor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0117_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27913",
+        "title": "Hector / Ezio",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0114_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27113",
+        "title": "Praline / Madeleine Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0098_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27013",
+        "title": "Chamomile / Espresso Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0100_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26013",
+        "title": "Nebelung",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0085_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25813",
+        "title": "Celine",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0081_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25413",
+        "title": "ROBO-G92",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0077_1_3.png"
+    },
+    {
+        "com2usmonsterid": "25113",
+        "title": "Fuuki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0073_1_3.png"
+    },
+    {
+        "com2usmonsterid": "24913",
+        "title": "Cordelia / CHUN-LI",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0065_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24813",
+        "title": "Jarrett / DHALSIM",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0064_1_3_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23913",
+        "title": "Yeonhwa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0057_1_3.png"
+    },
+    {
+        "com2usmonsterid": "23313",
+        "title": "Malite",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_2_2.png"
+    },
+    {
+        "com2usmonsterid": "22713",
+        "title": "Carbine",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0048_2_1.png"
+    },
+    {
+        "com2usmonsterid": "22413",
+        "title": "Skogul",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_2_0.png"
+    },
+    {
+        "com2usmonsterid": "22113",
+        "title": "Mellia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_2_1.png"
+    },
+    {
+        "com2usmonsterid": "22013",
+        "title": "Zenobia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_2_3.png"
+    },
+    {
+        "com2usmonsterid": "21913",
+        "title": "Melissa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_2_1.png"
+    },
+    {
+        "com2usmonsterid": "21413",
+        "title": "Triana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_2_2.png"
+    },
+    {
+        "com2usmonsterid": "21313",
+        "title": "Morris",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_2_0.png"
+    },
+    {
+        "com2usmonsterid": "21013",
+        "title": "Raviti",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_2_2.png"
+    },
+    {
+        "com2usmonsterid": "20713",
+        "title": "Windy",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_2_1.png"
+    },
+    {
+        "com2usmonsterid": "20613",
+        "title": "Imesety",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_2_0.png"
+    },
+    {
+        "com2usmonsterid": "20413",
+        "title": "Iunu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_2_1.png"
+    },
+    {
+        "com2usmonsterid": "20113",
+        "title": "Olivia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_2_1.png"
+    },
+    {
+        "com2usmonsterid": "20013",
+        "title": "Logan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_2_0.png"
+    },
+    {
+        "com2usmonsterid": "19913",
+        "title": "Tanya",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_2_2.png"
+    },
+    {
+        "com2usmonsterid": "19813",
+        "title": "Lupinus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_2_4.png"
+    },
+    {
+        "com2usmonsterid": "19613",
+        "title": "Cichlid",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_2_0.png"
+    },
+    {
+        "com2usmonsterid": "19413",
+        "title": "Barque",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_2_0.png"
+    },
+    {
+        "com2usmonsterid": "18813",
+        "title": "Hraesvelg",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_2_0.png"
+    },
+    {
+        "com2usmonsterid": "18413",
+        "title": "Woochi",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_2_0.png"
+    },
+    {
+        "com2usmonsterid": "18313",
+        "title": "Chasun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_2_3.png"
+    },
+    {
+        "com2usmonsterid": "18113",
+        "title": "Taurus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_2_1.png"
+    },
+    {
+        "com2usmonsterid": "18013",
+        "title": "Aquila",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_2_4.png"
+    },
+    {
+        "com2usmonsterid": "17313",
+        "title": "Ling Ling",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0008_2_4.png"
+    },
+    {
+        "com2usmonsterid": "16913",
+        "title": "Kaito",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_2_1.png"
+    },
+    {
+        "com2usmonsterid": "16313",
+        "title": "Fuco",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_2_1.png"
+    },
+    {
+        "com2usmonsterid": "16213",
+        "title": "Briand",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_2_3.png"
+    },
+    {
+        "com2usmonsterid": "15513",
+        "title": "Yen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_2_4.png"
+    },
+    {
+        "com2usmonsterid": "14713",
+        "title": "Argen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_2_2.png"
+    },
+    {
+        "com2usmonsterid": "14113",
+        "title": "Julien",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0015_2_3.png"
+    },
+    {
+        "com2usmonsterid": "13913",
+        "title": "Sophia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_2_4.png"
+    },
+    {
+        "com2usmonsterid": "13513",
+        "title": "Orochi",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0013_2_3.png"
+    },
+    {
+        "com2usmonsterid": "13413",
+        "title": "Lushen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_2_2.png"
+    },
+    {
+        "com2usmonsterid": "13313",
+        "title": "Selena",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_2_3.png"
+    },
+    {
+        "com2usmonsterid": "11913",
+        "title": "Acasis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0009_2_4.png"
+    },
+    {
+        "com2usmonsterid": "11813",
+        "title": "Shimitae",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_2_0.png"
+    },
+    {
+        "com2usmonsterid": "11613",
+        "title": "Delphoi",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_2_1.png"
+    },
+    {
+        "com2usmonsterid": "11213",
+        "title": "Arang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_2_3.png"
+    },
+    {
+        "com2usmonsterid": "20913",
+        "title": "Erwin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_2_1.png"
+    },
+    {
+        "com2usmonsterid": "20313",
+        "title": "Namib",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_2_3.png"
+    },
+    {
+        "com2usmonsterid": "20213",
+        "title": "Lo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_2_3.png"
+    },
+    {
+        "com2usmonsterid": "19513",
+        "title": "Zephicus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_2_2.png"
+    },
+    {
+        "com2usmonsterid": "19313",
+        "title": "Hannah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_2_4.png"
+    },
+    {
+        "com2usmonsterid": "19013",
+        "title": "Olivine",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_2_1.png"
+    },
+    {
+        "com2usmonsterid": "18713",
+        "title": "Mav",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_2_3.png"
+    },
+    {
+        "com2usmonsterid": "18513",
+        "title": "Suri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_2_4.png"
+    },
+    {
+        "com2usmonsterid": "17813",
+        "title": "Velfinodon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_2_2.png"
+    },
+    {
+        "com2usmonsterid": "17713",
+        "title": "Eintau",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_2_4.png"
+    },
+    {
+        "com2usmonsterid": "17213",
+        "title": "Huan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_2_3.png"
+    },
+    {
+        "com2usmonsterid": "15813",
+        "title": "Pigma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_2_1.png"
+    },
+    {
+        "com2usmonsterid": "15613",
+        "title": "Roger",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_2_2.png"
+    },
+    {
+        "com2usmonsterid": "15413",
+        "title": "Ardella",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_2_3.png"
+    },
+    {
+        "com2usmonsterid": "15313",
+        "title": "Michelle",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_2_1.png"
+    },
+    {
+        "com2usmonsterid": "14913",
+        "title": "Hina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0018_2_0.png"
+    },
+    {
+        "com2usmonsterid": "13713",
+        "title": "Dagorr",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_2_0.png"
+    },
+    {
+        "com2usmonsterid": "11713",
+        "title": "Anduril",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_2_3.png"
+    },
+    {
+        "com2usmonsterid": "11413",
+        "title": "Ragion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_2_2.png"
+    },
+    {
+        "com2usmonsterid": "11313",
+        "title": "Ermeda",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_2_0.png"
+    },
+    {
+        "com2usmonsterid": "10513",
+        "title": "Prilea",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_2_4.png"
+    },
+    {
+        "com2usmonsterid": "14813",
+        "title": "Walter",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_2_1.png"
+    },
+    {
+        "com2usmonsterid": "11113",
+        "title": "Lukan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_2_1.png"
+    },
+    {
+        "com2usmonsterid": "10913",
+        "title": "Lindermen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_2_2.png"
+    },
+    {
+        "com2usmonsterid": "10813",
+        "title": "Taharus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_2_0.png"
+    },
+    {
+        "com2usmonsterid": "10613",
+        "title": "Gamir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0002_2_1.png"
+    },
+    {
+        "com2usmonsterid": "10413",
+        "title": "Rakaja",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_2_2.png"
+    },
+    {
+        "com2usmonsterid": "10213",
+        "title": "Ralph",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0000_2_3.png"
+    },
+    {
+        "com2usmonsterid": "12813",
+        "title": "Samour",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_2_1.png"
+    },
+    {
+        "com2usmonsterid": "20834",
+        "title": "Driller",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0126_3_4.png"
+    },
+    {
+        "com2usmonsterid": "16534",
+        "title": "Silver",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0125_3_4.png"
+    },
+    {
+        "com2usmonsterid": "16034",
+        "title": "Prom",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0071_3_3.png"
+    },
+    {
+        "com2usmonsterid": "15934",
+        "title": "Linda",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0083_3_4.png"
+    },
+    {
+        "com2usmonsterid": "15234",
+        "title": "Darion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0082_3_4.png"
+    },
+    {
+        "com2usmonsterid": "15034",
+        "title": "Xiao Ling",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_3_2.png"
+    },
+    {
+        "com2usmonsterid": "14034",
+        "title": "Eshir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_3_1.png"
+    },
+    {
+        "com2usmonsterid": "13234",
+        "title": "Shushu and Friends",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0070_3_3.png"
+    },
+    {
+        "com2usmonsterid": "12134",
+        "title": "Sia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0160_3_4.png"
+    },
+    {
+        "com2usmonsterid": "12034",
+        "title": "Shren",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0074_3_4.png"
+    },
+    {
+        "com2usmonsterid": "11534",
+        "title": "Shamann",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0055_0_3.png"
+    },
+    {
+        "com2usmonsterid": "11034",
+        "title": "Belladeon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_3_3.png"
+    },
+    {
+        "com2usmonsterid": "10734",
+        "title": "Lusha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_3_2.png"
+    },
+    {
+        "com2usmonsterid": "10334",
+        "title": "Cheryl",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_3_1.png"
+    },
+    {
+        "com2usmonsterid": "10134",
+        "title": "Neal",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_3_0.png"
+    },
+    {
+        "com2usmonsterid": "1000214",
+        "title": "Light Homunculus(Support)",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_2_1.png"
+    },
+    {
+        "com2usmonsterid": "33414",
+        "title": "Light Nina Williams",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0184_1_4.png"
+    },
+    {
+        "com2usmonsterid": "33214",
+        "title": "Light Hwoarang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0185_1_4.png"
+    },
+    {
+        "com2usmonsterid": "32814",
+        "title": "Light White Tiger Blade Master / Inosuke Hashibira",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0182_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32514",
+        "title": "Light Azure Dragon Swordsman / Tanjiro Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0179_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32314",
+        "title": "Hyllus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0177_1_4.png"
+    },
+    {
+        "com2usmonsterid": "31314",
+        "title": "Mortera",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0175_1_4.png"
+    },
+    {
+        "com2usmonsterid": "31214",
+        "title": "Light Exorcist Association Hunter / Nobara Kugisaki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0164_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30914",
+        "title": "Light Exorcist Association Resolver / Satoru Gojo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0166_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30714",
+        "title": "Fridrion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0161_1_4.png"
+    },
+    {
+        "com2usmonsterid": "30014",
+        "title": "51LV3R",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0146_1_4.png"
+    },
+    {
+        "com2usmonsterid": "29914",
+        "title": "Groa / Triss",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0153_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29714",
+        "title": "Birgitta / Ciri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0151_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29614",
+        "title": "Lars / Geralt",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0150_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29114",
+        "title": "Miruel and Graciah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0136_1_4.png"
+    },
+    {
+        "com2usmonsterid": "28914",
+        "title": "Euldong",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0133_1_4.png"
+    },
+    {
+        "com2usmonsterid": "28614",
+        "title": "Jessica",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0127_1_4.png"
+    },
+    {
+        "com2usmonsterid": "28314",
+        "title": "Dyeus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0118_1_4.png"
+    },
+    {
+        "com2usmonsterid": "28214",
+        "title": "Berghild / Eivor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0117_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27914",
+        "title": "Ian / Ezio",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0114_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27814",
+        "title": "Frederic / Altair",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0113_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27214",
+        "title": "Kovarci",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0106_1_4.png"
+    },
+    {
+        "com2usmonsterid": "26914",
+        "title": "Audrey / Hollyberry Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0097_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26814",
+        "title": "Ariana / Pure Vanilla Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0099_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26114",
+        "title": "Veronica",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0087_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25914",
+        "title": "Shun",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0086_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25714",
+        "title": "Benedict",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0080_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25614",
+        "title": "Ella",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0078_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25314",
+        "title": "Daniel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0076_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25214",
+        "title": "Dorothy",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0075_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25014",
+        "title": "Seimei",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0072_1_4.png"
+    },
+    {
+        "com2usmonsterid": "24714",
+        "title": "Craig / M. BISON",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0068_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24514",
+        "title": "Talisman / RYU",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0066_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23714",
+        "title": "Hanwul",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0056_1_4.png"
+    },
+    {
+        "com2usmonsterid": "23514",
+        "title": "Narsha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0054_3_0.png"
+    },
+    {
+        "com2usmonsterid": "23114",
+        "title": "Lucifer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_3_4.png"
+    },
+    {
+        "com2usmonsterid": "22614",
+        "title": "Geldnir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_3_2.png"
+    },
+    {
+        "com2usmonsterid": "22214",
+        "title": "Valantis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_3_2.png"
+    },
+    {
+        "com2usmonsterid": "21814",
+        "title": "Jeanne",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_3_4.png"
+    },
+    {
+        "com2usmonsterid": "21514",
+        "title": "Eleanor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_3_4.png"
+    },
+    {
+        "com2usmonsterid": "21414",
+        "title": "Celia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_3_2.png"
+    },
+    {
+        "com2usmonsterid": "21214",
+        "title": "Tian Lang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_3_4.png"
+    },
+    {
+        "com2usmonsterid": "21114",
+        "title": "Oberon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_3_3.png"
+    },
+    {
+        "com2usmonsterid": "20614",
+        "title": "Wedjat",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_3_0.png"
+    },
+    {
+        "com2usmonsterid": "20514",
+        "title": "Isis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_3_2.png"
+    },
+    {
+        "com2usmonsterid": "19714",
+        "title": "Pontos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_3_3.png"
+    },
+    {
+        "com2usmonsterid": "19214",
+        "title": "Elsharion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_3_2.png"
+    },
+    {
+        "com2usmonsterid": "18914",
+        "title": "Elenoa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_3_3.png"
+    },
+    {
+        "com2usmonsterid": "18614",
+        "title": "Nigong",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_3_1.png"
+    },
+    {
+        "com2usmonsterid": "18314",
+        "title": "Yeonhong",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_3_3.png"
+    },
+    {
+        "com2usmonsterid": "17914",
+        "title": "Asima",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0023_3_1.png"
+    },
+    {
+        "com2usmonsterid": "17414",
+        "title": "Shazam",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_3_1.png"
+    },
+    {
+        "com2usmonsterid": "17014",
+        "title": "Artamiel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0019_3_2.png"
+    },
+    {
+        "com2usmonsterid": "16814",
+        "title": "Qitian Dasheng",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_3_4.png"
+    },
+    {
+        "com2usmonsterid": "16614",
+        "title": "Jager",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_3_0.png"
+    },
+    {
+        "com2usmonsterid": "16114",
+        "title": "Lora",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_3_4.png"
+    },
+    {
+        "com2usmonsterid": "15714",
+        "title": "Laima",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_3_1.png"
+    },
+    {
+        "com2usmonsterid": "14714",
+        "title": "Julianne",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_3_2.png"
+    },
+    {
+        "com2usmonsterid": "14614",
+        "title": "Shan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_3_2.png"
+    },
+    {
+        "com2usmonsterid": "14514",
+        "title": "Eludia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_3_3.png"
+    },
+    {
+        "com2usmonsterid": "14414",
+        "title": "Zerath",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_3_0.png"
+    },
+    {
+        "com2usmonsterid": "13814",
+        "title": "Akroma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_3_2.png"
+    },
+    {
+        "com2usmonsterid": "33314",
+        "title": "Light Paul Phoenix",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0186_1_4.png"
+    },
+    {
+        "com2usmonsterid": "33114",
+        "title": "Light Jin Kazama",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0187_1_4.png"
+    },
+    {
+        "com2usmonsterid": "32914",
+        "title": "Light Qilin Slasher / Zenitsu Agatsuma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0181_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32614",
+        "title": "Light Vermilion Bird Dancer / Nezuko Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0180_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31414",
+        "title": "Ramon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0176_1_4.png"
+    },
+    {
+        "com2usmonsterid": "31114",
+        "title": "Light Exorcist Association Conjurer / Megumi Fushiguro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0165_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31014",
+        "title": "Light Exorcist Association Fighter / Yuji Itadori",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0163_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30114",
+        "title": "Alesia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0145_1_4.png"
+    },
+    {
+        "com2usmonsterid": "29814",
+        "title": "Arcana / Yennefer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0152_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29014",
+        "title": "Eunbee and Sapsaree",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0132_1_4.png"
+    },
+    {
+        "com2usmonsterid": "28514",
+        "title": "Danu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0119_1_4.png"
+    },
+    {
+        "com2usmonsterid": "28114",
+        "title": "Aurelia / Kassandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0116_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "28014",
+        "title": "Ahmed / Bayek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0115_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27114",
+        "title": "Fudge / Madeleine Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0098_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27014",
+        "title": "Jasmine / Espresso Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0100_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26014",
+        "title": "Siamese",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0085_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25814",
+        "title": "Madeleine",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0081_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25414",
+        "title": "ROBO-E65",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0077_1_4.png"
+    },
+    {
+        "com2usmonsterid": "25114",
+        "title": "Kinki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0073_1_4.png"
+    },
+    {
+        "com2usmonsterid": "24914",
+        "title": "Leah / CHUN-LI",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0065_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24814",
+        "title": "Hekerson / DHALSIM",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0064_1_4_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23914",
+        "title": "Dongbaek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0057_1_4.png"
+    },
+    {
+        "com2usmonsterid": "23314",
+        "title": "Phenaka",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_3_2.png"
+    },
+    {
+        "com2usmonsterid": "22914",
+        "title": "Emily",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0049_3_4.png"
+    },
+    {
+        "com2usmonsterid": "22714",
+        "title": "Magnum",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0048_3_1.png"
+    },
+    {
+        "com2usmonsterid": "22414",
+        "title": "Einheri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_3_0.png"
+    },
+    {
+        "com2usmonsterid": "22114",
+        "title": "Felleria",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_3_1.png"
+    },
+    {
+        "com2usmonsterid": "22014",
+        "title": "Bailey",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_3_3.png"
+    },
+    {
+        "com2usmonsterid": "21914",
+        "title": "Deva",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_3_1.png"
+    },
+    {
+        "com2usmonsterid": "21314",
+        "title": "Tablo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_3_0.png"
+    },
+    {
+        "com2usmonsterid": "21014",
+        "title": "Dova",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_3_2.png"
+    },
+    {
+        "com2usmonsterid": "20714",
+        "title": "Misty",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_3_1.png"
+    },
+    {
+        "com2usmonsterid": "20414",
+        "title": "Amarna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_3_1.png"
+    },
+    {
+        "com2usmonsterid": "20114",
+        "title": "Illianna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_3_1.png"
+    },
+    {
+        "com2usmonsterid": "20014",
+        "title": "Lucas",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_3_0.png"
+    },
+    {
+        "com2usmonsterid": "19914",
+        "title": "Natalie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_3_2.png"
+    },
+    {
+        "com2usmonsterid": "19814",
+        "title": "Iris",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_3_4.png"
+    },
+    {
+        "com2usmonsterid": "19614",
+        "title": "Molly",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_3_0.png"
+    },
+    {
+        "com2usmonsterid": "19414",
+        "title": "Brig",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_3_0.png"
+    },
+    {
+        "com2usmonsterid": "18814",
+        "title": "Mimirr",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_3_0.png"
+    },
+    {
+        "com2usmonsterid": "18414",
+        "title": "Hwadam",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_3_0.png"
+    },
+    {
+        "com2usmonsterid": "18114",
+        "title": "Dover",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_3_1.png"
+    },
+    {
+        "com2usmonsterid": "18014",
+        "title": "Gemini",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_3_4.png"
+    },
+    {
+        "com2usmonsterid": "17314",
+        "title": "Liu Mei",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0008_3_4.png"
+    },
+    {
+        "com2usmonsterid": "16914",
+        "title": "Tosi",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_3_1.png"
+    },
+    {
+        "com2usmonsterid": "16314",
+        "title": "Halphas",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_3_1.png"
+    },
+    {
+        "com2usmonsterid": "16214",
+        "title": "Conrad",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_3_3.png"
+    },
+    {
+        "com2usmonsterid": "15514",
+        "title": "Pang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_3_4.png"
+    },
+    {
+        "com2usmonsterid": "15414",
+        "title": "Chris",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_3_3.png"
+    },
+    {
+        "com2usmonsterid": "15314",
+        "title": "Iona",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_3_1.png"
+    },
+    {
+        "com2usmonsterid": "14114",
+        "title": "Louis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0015_3_3.png"
+    },
+    {
+        "com2usmonsterid": "13914",
+        "title": "Eva",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_3_4.png"
+    },
+    {
+        "com2usmonsterid": "13514",
+        "title": "Gin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0013_3_3.png"
+    },
+    {
+        "com2usmonsterid": "13414",
+        "title": "Figaro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_3_2.png"
+    },
+    {
+        "com2usmonsterid": "13314",
+        "title": "Aria",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_3_3.png"
+    },
+    {
+        "com2usmonsterid": "11914",
+        "title": "Mihael",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0009_3_4.png"
+    },
+    {
+        "com2usmonsterid": "11814",
+        "title": "Eredas",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_3_0.png"
+    },
+    {
+        "com2usmonsterid": "11614",
+        "title": "Icasha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_3_1.png"
+    },
+    {
+        "com2usmonsterid": "11214",
+        "title": "Chamie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_3_3.png"
+    },
+    {
+        "com2usmonsterid": "20914",
+        "title": "Lucien",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_3_1.png"
+    },
+    {
+        "com2usmonsterid": "20314",
+        "title": "Sahara",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_3_3.png"
+    },
+    {
+        "com2usmonsterid": "20214",
+        "title": "Hiro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_3_3.png"
+    },
+    {
+        "com2usmonsterid": "19514",
+        "title": "Rumicus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_3_2.png"
+    },
+    {
+        "com2usmonsterid": "19314",
+        "title": "Loren",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_3_4.png"
+    },
+    {
+        "com2usmonsterid": "19114",
+        "title": "Fran",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_4_0.png"
+    },
+    {
+        "com2usmonsterid": "19014",
+        "title": "Marble",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_3_1.png"
+    },
+    {
+        "com2usmonsterid": "18714",
+        "title": "Dona",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_3_3.png"
+    },
+    {
+        "com2usmonsterid": "18514",
+        "title": "Baekdu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_3_4.png"
+    },
+    {
+        "com2usmonsterid": "17814",
+        "title": "Glinodon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_3_2.png"
+    },
+    {
+        "com2usmonsterid": "17714",
+        "title": "Grotau",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_3_4.png"
+    },
+    {
+        "com2usmonsterid": "17214",
+        "title": "Tien Qin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_3_3.png"
+    },
+    {
+        "com2usmonsterid": "16714",
+        "title": "Fami",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0023_4_4.png"
+    },
+    {
+        "com2usmonsterid": "15814",
+        "title": "Shaffron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_3_1.png"
+    },
+    {
+        "com2usmonsterid": "15614",
+        "title": "Walkers",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_3_2.png"
+    },
+    {
+        "com2usmonsterid": "14914",
+        "title": "Lyn",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0018_3_0.png"
+    },
+    {
+        "com2usmonsterid": "13714",
+        "title": "Ahman",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_3_0.png"
+    },
+    {
+        "com2usmonsterid": "11714",
+        "title": "Eludain",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_3_3.png"
+    },
+    {
+        "com2usmonsterid": "11414",
+        "title": "Groggo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_3_2.png"
+    },
+    {
+        "com2usmonsterid": "11314",
+        "title": "Elpuria",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_3_0.png"
+    },
+    {
+        "com2usmonsterid": "10914",
+        "title": "Teon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_3_2.png"
+    },
+    {
+        "com2usmonsterid": "10814",
+        "title": "Priz",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_3_0.png"
+    },
+    {
+        "com2usmonsterid": "10514",
+        "title": "Kabilla",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_3_4.png"
+    },
+    {
+        "com2usmonsterid": "14814",
+        "title": "Jansson",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_3_1.png"
+    },
+    {
+        "com2usmonsterid": "11114",
+        "title": "Sharman",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_3_1.png"
+    },
+    {
+        "com2usmonsterid": "10614",
+        "title": "Shamar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0002_3_1.png"
+    },
+    {
+        "com2usmonsterid": "10414",
+        "title": "Arkajan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_3_2.png"
+    },
+    {
+        "com2usmonsterid": "10214",
+        "title": "Taru",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0000_3_3.png"
+    },
+    {
+        "com2usmonsterid": "12814",
+        "title": "Varis",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_3_1.png"
+    },
+    {
+        "com2usmonsterid": "20835",
+        "title": "Crawler",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0126_3_5.png"
+    },
+    {
+        "com2usmonsterid": "16535",
+        "title": "Zinc",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0125_3_5.png"
+    },
+    {
+        "com2usmonsterid": "16035",
+        "title": "Thrain",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0071_3_4.png"
+    },
+    {
+        "com2usmonsterid": "15935",
+        "title": "Gina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0083_3_5.png"
+    },
+    {
+        "com2usmonsterid": "15235",
+        "title": "Jubelle",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0082_3_5.png"
+    },
+    {
+        "com2usmonsterid": "15035",
+        "title": "Miho",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_4_2.png"
+    },
+    {
+        "com2usmonsterid": "14035",
+        "title": "Jultan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0053_4_1.png"
+    },
+    {
+        "com2usmonsterid": "13235",
+        "title": "Chacha and Friends",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0070_3_4.png"
+    },
+    {
+        "com2usmonsterid": "12135",
+        "title": "Seren",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0160_3_5.png"
+    },
+    {
+        "com2usmonsterid": "12035",
+        "title": "Jumaline",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0074_3_5.png"
+    },
+    {
+        "com2usmonsterid": "11535",
+        "title": "Varus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0055_0_4.png"
+    },
+    {
+        "com2usmonsterid": "11035",
+        "title": "Kro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_4_3.png"
+    },
+    {
+        "com2usmonsterid": "10735",
+        "title": "Gorgo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_4_2.png"
+    },
+    {
+        "com2usmonsterid": "10335",
+        "title": "Camaryn",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_4_1.png"
+    },
+    {
+        "com2usmonsterid": "10135",
+        "title": "Sorin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0051_4_0.png"
+    },
+    {
+        "com2usmonsterid": "1000215",
+        "title": "Dark Homunculus(Support)",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_3_1.png"
+    },
+    {
+        "com2usmonsterid": "33415",
+        "title": "Dark Nina Williams",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0184_1_5.png"
+    },
+    {
+        "com2usmonsterid": "33115",
+        "title": "Dark Jin Kazama",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0187_1_5.png"
+    },
+    {
+        "com2usmonsterid": "32915",
+        "title": "Dark Qilin Slasher / Zenitsu Agatsuma",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0181_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32615",
+        "title": "Dark Vermilion Bird Dancer / Nezuko Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0180_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32315",
+        "title": "Actaeon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0177_1_5.png"
+    },
+    {
+        "com2usmonsterid": "31315",
+        "title": "Velaska",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0175_1_5.png"
+    },
+    {
+        "com2usmonsterid": "31115",
+        "title": "Dark Exorcist Association Conjurer / Megumi Fushiguro",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0165_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31015",
+        "title": "Dark Exorcist Association Fighter / Yuji Itadori",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0163_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30915",
+        "title": "Dark Exorcist Association Resolver / Satoru Gojo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0166_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30815",
+        "title": "Dark Exorcist Association Arbiter / Ryomen Sukuna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0162_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30715",
+        "title": "Drakar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0161_1_5.png"
+    },
+    {
+        "com2usmonsterid": "30015",
+        "title": "N1X",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0146_1_5.png"
+    },
+    {
+        "com2usmonsterid": "29915",
+        "title": "Celestara / Triss",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0153_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29815",
+        "title": "Hilda / Yennefer",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0152_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29615",
+        "title": "Valdemar / Geralt",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0150_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29115",
+        "title": "Jaduel and Aepiah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0136_1_5.png"
+    },
+    {
+        "com2usmonsterid": "28915",
+        "title": "Gapsoo",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0133_1_5.png"
+    },
+    {
+        "com2usmonsterid": "28615",
+        "title": "Liliana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0127_1_5.png"
+    },
+    {
+        "com2usmonsterid": "28315",
+        "title": "Devaraja",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0118_1_5.png"
+    },
+    {
+        "com2usmonsterid": "28215",
+        "title": "Sigrid / Eivor",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0117_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "28115",
+        "title": "Kiara / Kassandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0116_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "28015",
+        "title": "Salah / Bayek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0115_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27215",
+        "title": "Zenisek",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0106_1_5.png"
+    },
+    {
+        "com2usmonsterid": "26915",
+        "title": "Giselle / Hollyberry Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0097_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26815",
+        "title": "Elena / Pure Vanilla Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0099_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26115",
+        "title": "Destiny",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0087_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25915",
+        "title": "Ritsu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0086_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25715",
+        "title": "Maximilian",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0080_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25615",
+        "title": "Maya",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0078_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25315",
+        "title": "Jackson",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0076_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25215",
+        "title": "Kiki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0075_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25115",
+        "title": "Ongyouki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0073_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25015",
+        "title": "Douman",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0072_1_5.png"
+    },
+    {
+        "com2usmonsterid": "24715",
+        "title": "Gurkha / M. BISON",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0068_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24515",
+        "title": "Vancliffe / RYU",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0066_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23715",
+        "title": "Mookwol",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0056_1_5.png"
+    },
+    {
+        "com2usmonsterid": "23515",
+        "title": "Xiana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0054_4_0.png"
+    },
+    {
+        "com2usmonsterid": "23115",
+        "title": "Beelzebub",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_4_4.png"
+    },
+    {
+        "com2usmonsterid": "23015",
+        "title": "Eirgar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0050_0_2.png"
+    },
+    {
+        "com2usmonsterid": "22915",
+        "title": "Bella",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0049_4_4.png"
+    },
+    {
+        "com2usmonsterid": "22615",
+        "title": "Herteit",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_4_2.png"
+    },
+    {
+        "com2usmonsterid": "22215",
+        "title": "Pater",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_4_2.png"
+    },
+    {
+        "com2usmonsterid": "21815",
+        "title": "Leona",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0044_4_4.png"
+    },
+    {
+        "com2usmonsterid": "21515",
+        "title": "Alexandra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_4_4.png"
+    },
+    {
+        "com2usmonsterid": "21415",
+        "title": "Vivachel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_4_2.png"
+    },
+    {
+        "com2usmonsterid": "21215",
+        "title": "Mi Ying",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_4_4.png"
+    },
+    {
+        "com2usmonsterid": "21115",
+        "title": "Nyx",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_4_3.png"
+    },
+    {
+        "com2usmonsterid": "20515",
+        "title": "Nephthys",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_4_2.png"
+    },
+    {
+        "com2usmonsterid": "20415",
+        "title": "Thebae",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_4_1.png"
+    },
+    {
+        "com2usmonsterid": "20115",
+        "title": "Sylvia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_4_1.png"
+    },
+    {
+        "com2usmonsterid": "19715",
+        "title": "Manannan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_4_3.png"
+    },
+    {
+        "com2usmonsterid": "19215",
+        "title": "Veromos",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_4_2.png"
+    },
+    {
+        "com2usmonsterid": "18915",
+        "title": "Lydia",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_4_3.png"
+    },
+    {
+        "com2usmonsterid": "18615",
+        "title": "Woonsa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_4_1.png"
+    },
+    {
+        "com2usmonsterid": "18315",
+        "title": "Wolyung",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_4_3.png"
+    },
+    {
+        "com2usmonsterid": "17915",
+        "title": "Craka",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0023_4_1.png"
+    },
+    {
+        "com2usmonsterid": "17415",
+        "title": "Rahul",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_4_1.png"
+    },
+    {
+        "com2usmonsterid": "17015",
+        "title": "Fermion",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0019_4_2.png"
+    },
+    {
+        "com2usmonsterid": "16815",
+        "title": "Son Zhang Lao",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_4_4.png"
+    },
+    {
+        "com2usmonsterid": "16615",
+        "title": "Ragdoll",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0025_4_0.png"
+    },
+    {
+        "com2usmonsterid": "16115",
+        "title": "Nicki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_4_4.png"
+    },
+    {
+        "com2usmonsterid": "15715",
+        "title": "Giana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0022_4_1.png"
+    },
+    {
+        "com2usmonsterid": "14715",
+        "title": "Cadiz",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_4_2.png"
+    },
+    {
+        "com2usmonsterid": "14615",
+        "title": "Zeratu",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_4_2.png"
+    },
+    {
+        "com2usmonsterid": "14515",
+        "title": "Jaara",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_4_3.png"
+    },
+    {
+        "com2usmonsterid": "14415",
+        "title": "Grogen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0016_4_0.png"
+    },
+    {
+        "com2usmonsterid": "13815",
+        "title": "Trinity",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_4_2.png"
+    },
+    {
+        "com2usmonsterid": "13515",
+        "title": "Han",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0013_4_3.png"
+    },
+    {
+        "com2usmonsterid": "33315",
+        "title": "Dark Paul Phoenix",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0186_1_5.png"
+    },
+    {
+        "com2usmonsterid": "33215",
+        "title": "Dark Hwoarang",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0185_1_5.png"
+    },
+    {
+        "com2usmonsterid": "32815",
+        "title": "Dark White Tiger Blade Master / Inosuke Hashibira",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0182_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "32515",
+        "title": "Dark Azure Dragon Swordsman / Tanjiro Kamado",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0179_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "31415",
+        "title": "Volg",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0176_1_5.png"
+    },
+    {
+        "com2usmonsterid": "31215",
+        "title": "Dark Exorcist Association Hunter / Nobara Kugisaki",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0164_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "30115",
+        "title": "Roberta",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0145_1_5.png"
+    },
+    {
+        "com2usmonsterid": "29715",
+        "title": "Fiona / Ciri",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0151_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "29015",
+        "title": "Damee and Sapsaree",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0132_1_5.png"
+    },
+    {
+        "com2usmonsterid": "28515",
+        "title": "Vritra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0119_1_5.png"
+    },
+    {
+        "com2usmonsterid": "27915",
+        "title": "Evan / Ezio",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0114_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27115",
+        "title": "Truffle / Madeleine Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0098_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "27015",
+        "title": "Lavender / Espresso Cookie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0100_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "26015",
+        "title": "Bombay",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0085_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25815",
+        "title": "Deborah",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0081_1_5.png"
+    },
+    {
+        "com2usmonsterid": "25415",
+        "title": "ROBO-F29",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0077_1_5.png"
+    },
+    {
+        "com2usmonsterid": "24915",
+        "title": "Vereesa / CHUN-LI",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0065_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "24815",
+        "title": "Cayde / DHALSIM",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0064_1_5_swgtC2NC.png"
+    },
+    {
+        "com2usmonsterid": "23915",
+        "title": "Mirinae",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0057_1_5.png"
+    },
+    {
+        "com2usmonsterid": "23315",
+        "title": "Onyx",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0052_4_2.png"
+    },
+    {
+        "com2usmonsterid": "22715",
+        "title": "Dragunov",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0048_4_1.png"
+    },
+    {
+        "com2usmonsterid": "22415",
+        "title": "Trasar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0047_4_0.png"
+    },
+    {
+        "com2usmonsterid": "22115",
+        "title": "Hyanes",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0046_4_1.png"
+    },
+    {
+        "com2usmonsterid": "22015",
+        "title": "Martina",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_4_3.png"
+    },
+    {
+        "com2usmonsterid": "21915",
+        "title": "Belita",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0045_4_1.png"
+    },
+    {
+        "com2usmonsterid": "21315",
+        "title": "Monte",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0043_4_0.png"
+    },
+    {
+        "com2usmonsterid": "20915",
+        "title": "Isillen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_4_1.png"
+    },
+    {
+        "com2usmonsterid": "20715",
+        "title": "Dusky",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0040_4_1.png"
+    },
+    {
+        "com2usmonsterid": "20615",
+        "title": "Amduat",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0039_4_0.png"
+    },
+    {
+        "com2usmonsterid": "20015",
+        "title": "Karl",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_4_0.png"
+    },
+    {
+        "com2usmonsterid": "19915",
+        "title": "Isabelle",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_4_2.png"
+    },
+    {
+        "com2usmonsterid": "19815",
+        "title": "Lanett",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0036_4_4.png"
+    },
+    {
+        "com2usmonsterid": "19615",
+        "title": "Betta",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0035_4_0.png"
+    },
+    {
+        "com2usmonsterid": "19415",
+        "title": "Frigate",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_4_0.png"
+    },
+    {
+        "com2usmonsterid": "18815",
+        "title": "Hrungnir",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_4_0.png"
+    },
+    {
+        "com2usmonsterid": "18115",
+        "title": "Bering",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0029_4_1.png"
+    },
+    {
+        "com2usmonsterid": "18015",
+        "title": "Korona",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_4_4.png"
+    },
+    {
+        "com2usmonsterid": "17315",
+        "title": "Fei",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0008_4_4.png"
+    },
+    {
+        "com2usmonsterid": "16915",
+        "title": "Sige",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_4_1.png"
+    },
+    {
+        "com2usmonsterid": "16315",
+        "title": "Grego",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_4_1.png"
+    },
+    {
+        "com2usmonsterid": "16215",
+        "title": "Dias",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0024_4_3.png"
+    },
+    {
+        "com2usmonsterid": "15515",
+        "title": "Ran",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_4_4.png"
+    },
+    {
+        "com2usmonsterid": "15415",
+        "title": "Bethony",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_4_3.png"
+    },
+    {
+        "com2usmonsterid": "14115",
+        "title": "Guillaume",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0015_4_3.png"
+    },
+    {
+        "com2usmonsterid": "13915",
+        "title": "Luna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_4_4.png"
+    },
+    {
+        "com2usmonsterid": "13415",
+        "title": "Liebli",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_4_2.png"
+    },
+    {
+        "com2usmonsterid": "13315",
+        "title": "Isael",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_4_3.png"
+    },
+    {
+        "com2usmonsterid": "11915",
+        "title": "Icares",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0009_4_4.png"
+    },
+    {
+        "com2usmonsterid": "11815",
+        "title": "Aschubel",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_4_0.png"
+    },
+    {
+        "com2usmonsterid": "11615",
+        "title": "Tilasha",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_4_1.png"
+    },
+    {
+        "com2usmonsterid": "11215",
+        "title": "Kamiya",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_4_3.png"
+    },
+    {
+        "com2usmonsterid": "21015",
+        "title": "Kroa",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0041_4_2.png"
+    },
+    {
+        "com2usmonsterid": "20315",
+        "title": "Karakum",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0038_4_3.png"
+    },
+    {
+        "com2usmonsterid": "20215",
+        "title": "Jackie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0037_4_3.png"
+    },
+    {
+        "com2usmonsterid": "19515",
+        "title": "Calicus",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0034_4_2.png"
+    },
+    {
+        "com2usmonsterid": "19315",
+        "title": "Cassie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0032_4_4.png"
+    },
+    {
+        "com2usmonsterid": "19015",
+        "title": "Basalt",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0033_4_1.png"
+    },
+    {
+        "com2usmonsterid": "18715",
+        "title": "Kuna",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0031_4_3.png"
+    },
+    {
+        "com2usmonsterid": "18515",
+        "title": "Hanra",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_4_4.png"
+    },
+    {
+        "com2usmonsterid": "18415",
+        "title": "Woonhak",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0030_4_0.png"
+    },
+    {
+        "com2usmonsterid": "17815",
+        "title": "Devinodon",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0028_4_2.png"
+    },
+    {
+        "com2usmonsterid": "17715",
+        "title": "Kamatau",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0027_4_4.png"
+    },
+    {
+        "com2usmonsterid": "17215",
+        "title": "Wei Shin",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0026_4_3.png"
+    },
+    {
+        "com2usmonsterid": "15815",
+        "title": "Loque",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0007_4_1.png"
+    },
+    {
+        "com2usmonsterid": "15615",
+        "title": "Jamie",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0021_4_2.png"
+    },
+    {
+        "com2usmonsterid": "15315",
+        "title": "Rasheed",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0020_4_1.png"
+    },
+    {
+        "com2usmonsterid": "14915",
+        "title": "Mara",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0018_4_0.png"
+    },
+    {
+        "com2usmonsterid": "14815",
+        "title": "Janssen",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0017_4_1.png"
+    },
+    {
+        "com2usmonsterid": "13715",
+        "title": "Haken",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0014_4_0.png"
+    },
+    {
+        "com2usmonsterid": "11715",
+        "title": "Drogan",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0006_4_3.png"
+    },
+    {
+        "com2usmonsterid": "11415",
+        "title": "Maggi",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_4_2.png"
+    },
+    {
+        "com2usmonsterid": "11315",
+        "title": "Mantura",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0005_4_0.png"
+    },
+    {
+        "com2usmonsterid": "10815",
+        "title": "Camules",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_4_0.png"
+    },
+    {
+        "com2usmonsterid": "10615",
+        "title": "Shumar",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0002_4_1.png"
+    },
+    {
+        "com2usmonsterid": "10515",
+        "title": "Hellea",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_4_4.png"
+    },
+    {
+        "com2usmonsterid": "10415",
+        "title": "Kumae",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0001_4_2.png"
+    },
+    {
+        "com2usmonsterid": "11115",
+        "title": "Decamaron",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0004_4_1.png"
+    },
+    {
+        "com2usmonsterid": "10915",
+        "title": "Rizak",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0003_4_2.png"
+    },
+    {
+        "com2usmonsterid": "10215",
+        "title": "Garok",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0000_4_3.png"
+    },
+    {
+        "com2usmonsterid": "12815",
+        "title": "Havana",
+        "image_src": "https://do9d4mpqk497d.cloudfront.net/common/images/monsters36/unit_icon_0011_4_1.png"
+    }
+]
