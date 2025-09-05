@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { supabase } from "../../supabaseClient";
 import './Navbar.scss';
 
 export default function Navbar() {
