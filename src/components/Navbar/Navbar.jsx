@@ -17,8 +17,13 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
+                    <Link to={"/search/"}>
+                        Recherche
+                    </Link>
+                </li>
+                <li>
                     <Link to={"/bestiary/"}>
-                        Bestiary
+                        Box
                     </Link>
                 </li>
                 <li>

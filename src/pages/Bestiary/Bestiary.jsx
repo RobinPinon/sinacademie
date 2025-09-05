@@ -245,8 +245,27 @@ const Bestiary = () => {
 			});
 		}
 
-		// S'assurer que l'ordre est maintenu après le filtrage
+		// Trier les monstres filtrés
 		const sortedFiltered = filtered.sort((a, b) => {
+			if (searchTerm) {
+				const titleA = (a.title || getMonsterName(a.com2usmonsterid)).toLowerCase();
+				const titleB = (b.title || getMonsterName(b.com2usmonsterid)).toLowerCase();
+				const searchLower = searchTerm.toLowerCase();
+				
+				// Prioriser les monstres qui commencent par le terme de recherche
+				const startsWithA = titleA.startsWith(searchLower);
+				const startsWithB = titleB.startsWith(searchLower);
+				
+				if (startsWithA && !startsWithB) return -1;
+				if (!startsWithA && startsWithB) return 1;
+				
+				// Si les deux commencent par le terme ou aucun ne commence, trier par ordre alphabétique
+				if (startsWithA === startsWithB) {
+					return titleA.localeCompare(titleB);
+				}
+			}
+			
+			// Si pas de terme de recherche, trier par ordre d'apparition dans monstres.json
 			const orderA = monsterOrderMap[a.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
 			const orderB = monsterOrderMap[b.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
 			return orderA - orderB;
