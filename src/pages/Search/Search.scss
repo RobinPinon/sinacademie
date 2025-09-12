@@ -1,0 +1,84 @@
+.search {
+  padding: 16px;
+}
+
+.search__bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.search__bar input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.search__count {
+  color: #666;
+  font-size: 14px;
+}
+
+.search__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.search__card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search__thumb {
+  background: #f7f7f7;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__thumb img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.search__meta {
+  padding: 8px 10px;
+}
+
+.search__title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ID masqué (supprimé de l'UI) */
+
+.error {
+  color: #c00;
+}
+
+.no-results {
+  color: #666;
+}
+
+.def {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+  gap: .5rem;
+}
+
+.def__card {
+  width: fit-content;
+}
+
+

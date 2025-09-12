@@ -14,7 +14,7 @@ const Bestiary = () => {
 		const lastDigit = parseInt(monsterId.toString().slice(-1));
 		const attributes = {
 			1: "Water",
-			2: "Fire", 
+			2: "Fire",
 			3: "Wind",
 			4: "Light",
 			5: "Dark",
@@ -31,26 +31,28 @@ const Bestiary = () => {
 	useEffect(() => {
 		const loadMonsterData = async () => {
 			try {
-				const response = await fetch('/monstres.json');
+				const response = await fetch("/monstres.json");
 				const monstersData = await response.json();
-				
+
 				// Créer un mapping ID -> données complètes et ID -> ordre d'apparition
 				const dataMap = {};
 				const orderMap = {};
 				monstersData.forEach((monster, index) => {
 					dataMap[monster.com2usmonsterid] = {
 						name: monster.title,
-						image: monster.image_src
+						image: monster.image_src,
 					};
 					// Stocker l'index (ordre d'apparition) pour chaque monstre
 					orderMap[monster.com2usmonsterid] = index;
 				});
-				
+
 				setMonsterDataMap(dataMap);
 				setMonsterOrderMap(orderMap);
-				console.log("Données des monstres chargées:", Object.keys(dataMap).length, "monstres");
 			} catch (error) {
-				console.error("Erreur lors du chargement des données de monstres:", error);
+				console.error(
+					"Erreur lors du chargement des données de monstres:",
+					error
+				);
 			}
 		};
 
@@ -115,106 +117,143 @@ const Bestiary = () => {
 				}
 
 				// Vérifier et traiter les données JSON
-				console.log("Données JSON reçues:", data.json_data);
-				console.log("Type des données:", typeof data.json_data);
-				console.log("Est un tableau:", Array.isArray(data.json_data));
-				
+
 				let monstersData = data.json_data;
-				
+
 				// Si les données ne sont pas directement un tableau, chercher les monstres
 				if (!Array.isArray(data.json_data)) {
-					if (typeof data.json_data === 'object' && data.json_data !== null) {
+					if (
+						typeof data.json_data === "object" &&
+						data.json_data !== null
+					) {
 						// Chercher dans différentes propriétés possibles pour les monstres
-						const possibleKeys = ['monsters', 'monster', 'data', 'items', 'list', 'unit_list', 'unit_list_map'];
+						const possibleKeys = [
+							"monsters",
+							"monster",
+							"data",
+							"items",
+							"list",
+							"unit_list",
+							"unit_list_map",
+						];
 						for (const key of possibleKeys) {
 							if (Array.isArray(data.json_data[key])) {
 								monstersData = data.json_data[key];
-								console.log(`Monstres trouvés dans la propriété '${key}':`, monstersData);
+
 								break;
 							}
 						}
-						
+
 						// Si toujours pas de tableau trouvé, chercher des objets avec unit_master_id
 						if (!Array.isArray(monstersData)) {
 							// Chercher dans toutes les propriétés pour des objets contenant unit_master_id
-							const findMonstersInObject = (obj, path = '') => {
+							const findMonstersInObject = (obj, path = "") => {
 								const monsters = [];
-								for (const [key, value] of Object.entries(obj)) {
+								for (const [key, value] of Object.entries(
+									obj
+								)) {
 									if (Array.isArray(value)) {
 										// Vérifier si c'est un tableau de monstres
-										const monsterArray = value.filter(item => 
-											item && typeof item === 'object' && 
-											(item.unit_master_id || item.com2usmonsterid)
+										const monsterArray = value.filter(
+											(item) =>
+												item &&
+												typeof item === "object" &&
+												(item.unit_master_id ||
+													item.com2usmonsterid)
 										);
 										if (monsterArray.length > 0) {
 											monsters.push(...monsterArray);
-											console.log(`Monstres trouvés dans ${path}.${key}:`, monsterArray);
 										}
-									} else if (value && typeof value === 'object') {
+									} else if (
+										value &&
+										typeof value === "object"
+									) {
 										// Récursion pour chercher plus profondément
-										monsters.push(...findMonstersInObject(value, `${path}.${key}`));
+										monsters.push(
+											...findMonstersInObject(
+												value,
+												`${path}.${key}`
+											)
+										);
 									}
 								}
 								return monsters;
 							};
-							
-							const foundMonsters = findMonstersInObject(data.json_data);
+
+							const foundMonsters = findMonstersInObject(
+								data.json_data
+							);
 							if (foundMonsters.length > 0) {
 								monstersData = foundMonsters;
-								console.log("Monstres trouvés par recherche récursive:", foundMonsters);
 							}
 						}
 					}
 				}
-				
+
 				if (!Array.isArray(monstersData)) {
-					console.log("Structure des données reçues:", JSON.stringify(data.json_data, null, 2));
-					
 					// Vérifier si c'est des données de guilde
 					if (data.json_data && data.json_data.guild) {
-						throw new Error("Les données JSON contiennent des informations de guilde, pas de monstres. Veuillez importer un fichier JSON contenant des monstres (format attendu: tableau avec com2usmonsterid, title, image_src).");
+						throw new Error(
+							"Les données JSON contiennent des informations de guilde, pas de monstres. Veuillez importer un fichier JSON contenant des monstres (format attendu: tableau avec com2usmonsterid, title, image_src)."
+						);
 					}
-					
-					throw new Error("Les données JSON ne contiennent pas de tableau de monstres valide. Veuillez vérifier que vous avez importé le bon fichier JSON contenant les monstres (format attendu: tableau avec com2usmonsterid, title, image_src).");
+
+					throw new Error(
+						"Les données JSON ne contiennent pas de tableau de monstres valide. Veuillez vérifier que vous avez importé le bon fichier JSON contenant les monstres (format attendu: tableau avec com2usmonsterid, title, image_src)."
+					);
 				}
 
 				// Vérifier que les monstres ont les propriétés attendues
 				if (monstersData.length > 0) {
 					const firstMonster = monstersData[0];
-					console.log("Premier monstre:", firstMonster);
-					
+
 					// Vérifier si le monstre a unit_master_id ou com2usmonsterid
-					if (!firstMonster.unit_master_id && !firstMonster.com2usmonsterid) {
-						throw new Error("Les données JSON ne contiennent pas les propriétés attendues (unit_master_id ou com2usmonsterid)");
+					if (
+						!firstMonster.unit_master_id &&
+						!firstMonster.com2usmonsterid
+					) {
+						throw new Error(
+							"Les données JSON ne contiennent pas les propriétés attendues (unit_master_id ou com2usmonsterid)"
+						);
 					}
-					
+
 					// Normaliser et filtrer les données : ne garder que les monstres présents dans monstres.json
 					monstersData = monstersData
-						.map(monster => {
-							const monsterId = monster.com2usmonsterid || monster.unit_master_id;
+						.map((monster) => {
+							const monsterId =
+								monster.com2usmonsterid ||
+								monster.unit_master_id;
 							return {
 								...monster,
 								com2usmonsterid: monsterId,
-								title: monster.title || monster.name || getMonsterName(monsterId),
-								image_src: monster.image_src || monster.image || getMonsterImage(monsterId)
+								title:
+									monster.title ||
+									monster.name ||
+									getMonsterName(monsterId),
+								image_src:
+									monster.image_src ||
+									monster.image ||
+									getMonsterImage(monsterId),
 							};
 						})
-						.filter(monster => {
+						.filter((monster) => {
 							// Ne garder que les monstres dont l'ID existe dans monstres.json
-							const existsInMonstresJson = monsterDataMap[monster.com2usmonsterid];
+							const existsInMonstresJson =
+								monsterDataMap[monster.com2usmonsterid];
 							if (!existsInMonstresJson) {
-								console.log(`Monstre ignoré (ID non trouvé dans monstres.json): ${monster.com2usmonsterid}`);
 							}
 							return existsInMonstresJson;
 						});
-
-					console.log(`Monstres valides trouvés: ${monstersData.length} monstres présents dans monstres.json`);
 				}
 
 				// Trier les monstres selon leur ordre d'apparition dans monstres.json
 				const sortedMonsters = monstersData.sort((a, b) => {
-					const orderA = monsterOrderMap[a.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
-					const orderB = monsterOrderMap[b.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
+					const orderA =
+						monsterOrderMap[a.com2usmonsterid] ??
+						Number.MAX_SAFE_INTEGER;
+					const orderB =
+						monsterOrderMap[b.com2usmonsterid] ??
+						Number.MAX_SAFE_INTEGER;
 					return orderA - orderB;
 				});
 
@@ -240,7 +279,8 @@ const Bestiary = () => {
 		// Filtre par terme de recherche
 		if (searchTerm) {
 			filtered = filtered.filter((monster) => {
-				const title = monster.title || getMonsterName(monster.com2usmonsterid);
+				const title =
+					monster.title || getMonsterName(monster.com2usmonsterid);
 				return title.toLowerCase().includes(searchTerm.toLowerCase());
 			});
 		}
@@ -248,26 +288,32 @@ const Bestiary = () => {
 		// Trier les monstres filtrés
 		const sortedFiltered = filtered.sort((a, b) => {
 			if (searchTerm) {
-				const titleA = (a.title || getMonsterName(a.com2usmonsterid)).toLowerCase();
-				const titleB = (b.title || getMonsterName(b.com2usmonsterid)).toLowerCase();
+				const titleA = (
+					a.title || getMonsterName(a.com2usmonsterid)
+				).toLowerCase();
+				const titleB = (
+					b.title || getMonsterName(b.com2usmonsterid)
+				).toLowerCase();
 				const searchLower = searchTerm.toLowerCase();
-				
+
 				// Prioriser les monstres qui commencent par le terme de recherche
 				const startsWithA = titleA.startsWith(searchLower);
 				const startsWithB = titleB.startsWith(searchLower);
-				
+
 				if (startsWithA && !startsWithB) return -1;
 				if (!startsWithA && startsWithB) return 1;
-				
+
 				// Si les deux commencent par le terme ou aucun ne commence, trier par ordre alphabétique
 				if (startsWithA === startsWithB) {
 					return titleA.localeCompare(titleB);
 				}
 			}
-			
+
 			// Si pas de terme de recherche, trier par ordre d'apparition dans monstres.json
-			const orderA = monsterOrderMap[a.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
-			const orderB = monsterOrderMap[b.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
+			const orderA =
+				monsterOrderMap[a.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
+			const orderB =
+				monsterOrderMap[b.com2usmonsterid] ?? Number.MAX_SAFE_INTEGER;
 			return orderA - orderB;
 		});
 
@@ -319,13 +365,13 @@ const Bestiary = () => {
 			</div>
 
 			<div className="monsters-grid">
-				{!Array.isArray(filteredMonsters) || filteredMonsters.length === 0 ? (
+				{!Array.isArray(filteredMonsters) ||
+				filteredMonsters.length === 0 ? (
 					<div className="no-results">
 						<p>
-							{!Array.isArray(filteredMonsters) 
-								? "Erreur de format des données" 
-								: "Aucun monstre trouvé avec ces critères."
-							}
+							{!Array.isArray(filteredMonsters)
+								? "Erreur de format des données"
+								: "Aucun monstre trouvé avec ces critères."}
 						</p>
 					</div>
 				) : (
